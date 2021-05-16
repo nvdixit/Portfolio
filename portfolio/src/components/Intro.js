@@ -1,4 +1,5 @@
-import Link from "./Link"
+import WebpageButton from "./WebpageButton/WebpageButton"
+import ExternalWebpageButton from  "./ExternalWebpageButton/ExternalWebpageButton"
 
 function Intro() {
     return (          
@@ -13,7 +14,18 @@ function Intro() {
                 I started programming when I was 13 and have loved it ever since. Now, I'm familiar with Java, Python, Swift, and C. 
             </center>
         </p>
-           
+        
+        <p>
+          <center>My Socials</center>
+          <pre />
+
+          <center>
+              <ExternalWebpageButton url={"https://github.com/nvdixit"}/>
+              <ExternalWebpageButton url={"https://www.linkedin.com/in/nikhil-dixit-420279159"}/>
+          </center>
+
+        </p>
+
         <p>
             <center>
                 Coursework <pre />
@@ -22,9 +34,12 @@ function Intro() {
                 CSC226 - Discrete Mathematics <pre />
                 CSC316 - Data Structures & Algorithms &emsp;
                 CSC230 - C and Software Tools <pre />
-      
- 
              </center>
+
+            <center>
+                <WebpageButton title={"Projects"} text={"Coding projets I've used to learn"} />
+                <WebpageButton title={"My Hobbies"} text={"What I like to do for fun"} />
+            </center>
         </p>
       </main>
     )

@@ -1,0 +1,18 @@
+#ExternalWebpageButton {
+    text-align: center;
+    font-size: 15pt;
+    font-family: 'Roboto-Thin', "Roboto";
+
+    color: white;
+    background-color: black;
+    border-color: black;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 10pt;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50x;
+
+    background-image: url("GitHub-Mark-Light-120px-plus.png");
+}
