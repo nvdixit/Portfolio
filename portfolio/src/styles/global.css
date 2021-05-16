@@ -1,0 +1,23 @@
+@font-face {
+    font-family:"Roboto";
+    src: url("./fonts/Roboto-Thin.ttf") format("truetype");
+  }
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Roboto-Thin', "Roboto";
+    color: white;
+    font-size: 85pt;   
+}
+
+p {
+    font-family: 'Roboto-Thin', "Roboto";
+    line-height: 30pt;
+    color: white;
+    font-size: 20pt;
+    margin-left: 100pt;
+    margin-right: 100pt;
+}

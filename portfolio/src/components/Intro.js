@@ -9,23 +9,21 @@ function Intro() {
         
         <p>
             <center>
-                I'm an aspiring software developer studying computer science at North Carolina 
-                State University.
-                <Link url={"https://www.ncsu.edu"} hyperlinkText={"Go Pack!"}/>
+                I'm an aspiring software developer studying computer science at North Carolina State University. Go Wolfpack!
+                I started programming when I was 13 and have loved it ever since. Now, I'm familiar with Java, Python, Swift, and C. 
             </center>
         </p>
            
         <p>
             <center>
-                My Socials: 
-            </center>
-
-            <center>
-                Coursework: CSC116 - Introduction to Computing - Java
-                     CSC216 - Fundamentals of Software Engineering
-                     CSC226 - Discrete Mathematics
-                     CSC316 - Data Structures & Algorithms
-                     CSC230 - C and Software Tools
+                Coursework <pre />
+                CSC116 - Introduction to Computing - Java &emsp;
+                CSC216 - Fundamentals of Software Engineering &emsp;
+                CSC226 - Discrete Mathematics <pre />
+                CSC316 - Data Structures & Algorithms &emsp;
+                CSC230 - C and Software Tools <pre />
+      
+ 
              </center>
         </p>
       </main>
