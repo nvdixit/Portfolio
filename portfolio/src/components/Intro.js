@@ -1,5 +1,6 @@
 import WebpageButton from "./WebpageButton/WebpageButton"
 import ExternalWebpageButton from  "./ExternalWebpageButton/ExternalWebpageButton"
+import Course from "./Course/Course"
 
 function Intro() {
     return (          
@@ -29,16 +30,19 @@ function Intro() {
         <p>
             <center>
                 Coursework <pre />
-                CSC116 - Introduction to Computing - Java &emsp;
-                CSC216 - Fundamentals of Software Engineering &emsp;
-                CSC226 - Discrete Mathematics <pre />
-                CSC316 - Data Structures & Algorithms &emsp;
-                CSC230 - C and Software Tools <pre />
+                <Course courseName="CSC116 - Introduction to Computing - Java" description={["Learned basics of Java programming language & OOP", "asdfadsf"]}/>
+                <Course courseName="CSC216 - Fundamentals of Software Engineering"/>
+                <Course courseName="CSC226 - Discrete Mathematics"/>
+                <Course courseName="CSC316 - Data Structures & Algorithms"/>
+                <Course courseName="CSC230 - C and Software Tools"/>
+                <pre />
+
              </center>
 
             <center>
-                <WebpageButton title={"Projects"} text={"Coding projets I've used to learn"} />
-                <WebpageButton title={"My Hobbies"} text={"What I like to do for fun"} />
+                <WebpageButton title={"Projects"}/>
+                <WebpageButton title={"Hobbies"}/>
+                <WebpageButton title={"Contact"}/>
             </center>
         </p>
       </main>
