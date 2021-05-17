@@ -20,8 +20,8 @@ function Intro() {
           <pre />
 
           <center>
-              <ExternalWebpageButton url={"https://github.com/nvdixit"}/>
-              <ExternalWebpageButton url={"https://www.linkedin.com/in/nikhil-dixit-420279159"}/>
+              <ExternalWebpageButton url={"https://github.com/nvdixit"} webpage={"GitHub"}/>
+              <ExternalWebpageButton url={"https://www.linkedin.com/in/nikhil-dixit-420279159"} webpage={"Linkedin"}/>
           </center>
 
         </p>

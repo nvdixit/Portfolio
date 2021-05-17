@@ -9,10 +9,15 @@
 
     width: 120px;
     height: 120px;
-    border-radius: 10pt;
+    border-radius: 60pt;
     display: inline-block;
     margin-right: 50px;
     margin-left: 50x;
 
-    background-image: url("GitHub-Mark-Light-120px-plus.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#ExternalWebpageButton:hover {
+    cursor: pointer;
 }
