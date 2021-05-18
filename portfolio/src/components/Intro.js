@@ -1,10 +1,19 @@
-import WebpageButton from "./WebpageButton/WebpageButton"
+import {
+  Link
+} from "react-router-dom"
+
 import ExternalWebpageButton from  "./ExternalWebpageButton/ExternalWebpageButton"
 import Course from "./Course/Course"
 
 function Intro() {
   return (          
       <main>
+        <ul id="navbar">
+            <li id="navitem"><Link to={"/Projects"} style={{ textDecoration: 'none', color:"inherit" }}>Projects</Link></li>
+            <li id="navitem"><Link to={"/Hobbies"} style={{ textDecoration: 'none', color:"inherit" }}>Hobbies</Link></li>
+            <li id="navitem"><Link to={"/Contact"} style={{ textDecoration: 'none', color:"inherit"}}>Contact</Link></li>
+        </ul>
+        
         <h1>
           <center>Nikhil Dixit</center>
         </h1>
@@ -40,11 +49,6 @@ function Intro() {
 
              </center>
 
-            <center>
-                <WebpageButton title={"Projects"}/>
-                <WebpageButton title={"Hobbies"}/>
-                <WebpageButton title={"Contact"}/>
-            </center>
         </p>
       </main>
     )
