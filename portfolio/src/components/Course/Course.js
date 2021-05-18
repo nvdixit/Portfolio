@@ -1,16 +1,14 @@
 import React from 'react'
 import "./Course.css"
 
-function Course(props) {
+const Course = (props) => {
     return (
         <div id="Course">
             {props.courseName}
-
-            <left>
-                <small>  
-                    <li>{props.description}</li>
-                </small>
-            </left>
+            
+            <small><small>  
+                <li id="InnerText">{props.description}</li>
+            </small></small>
         </div>
     )
 }

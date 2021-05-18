@@ -3,7 +3,7 @@ import ExternalWebpageButton from  "./ExternalWebpageButton/ExternalWebpageButto
 import Course from "./Course/Course"
 
 function Intro() {
-    return (          
+  return (          
       <main>
         <h1>
           <center>Nikhil Dixit</center>
@@ -12,10 +12,10 @@ function Intro() {
         <p>
             <center>
                 I'm an aspiring software developer studying computer science at North Carolina State University. Go Wolfpack!
-                I started programming when I was 13 and have loved it ever since. Now, I'm familiar with Java, Python, Swift, and C. 
+                I started programming when I was 13 and have loved it ever since. Now, I'm familiar with Java, Python, Swift, C++, and C. 
             </center>
         </p>
-        
+
         <p>
           <center>My Socials</center>
           <pre />
@@ -30,7 +30,8 @@ function Intro() {
         <p>
             <center>
                 Coursework <pre />
-                <Course courseName="CSC116 - Introduction to Computing - Java" description={["Learned basics of Java programming language & OOP", "asdfadsf"]}/>
+                <Course courseName="CSC116 - Introduction to Computing - Java" description={["Reviewed basics of Java programming language & OOP", 
+                                                                                             "Performed system/unit testing on applications"]}/>
                 <Course courseName="CSC216 - Fundamentals of Software Engineering"/>
                 <Course courseName="CSC226 - Discrete Mathematics"/>
                 <Course courseName="CSC316 - Data Structures & Algorithms"/>
