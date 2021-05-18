@@ -1,0 +1,21 @@
+#ProjectButton {
+    color:lightgreen;
+    background-color: black;
+    border-color:lightgreen;
+
+    width:300px;
+    height:600px;
+    border-radius: 50px;
+    border-style: solid;
+
+    text-align: center;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    font-size: 25pt;
+}
+
+#ProjectButton:hover {
+    cursor:pointer;
+}
