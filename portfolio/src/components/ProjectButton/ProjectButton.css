@@ -1,10 +1,10 @@
 #ProjectButton {
-    color:lightgreen;
+    color:white;
     background-color: black;
     border-color:lightgreen;
 
-    width:300px;
-    height:600px;
+    width:400px;
+    height:700px;
     border-radius: 50px;
     border-style: solid;
 
@@ -16,6 +16,27 @@
     font-size: 25pt;
 }
 
-#ProjectButton:hover {
+#description {
+    font-size: 15pt;
+    margin-left: 15pt;
+    margin-right: 15pt;
+}
+
+#RepoLink {
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}
+
+#RepoLink:hover {
+    color:orange;
+}
+
+#ProjectName {
+    width: fit-content;
+}
+
+#ProjectName:hover {
+    color:lightgreen;
     cursor:pointer;
 }
