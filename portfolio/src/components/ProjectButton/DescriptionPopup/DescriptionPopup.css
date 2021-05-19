@@ -1,0 +1,10 @@
+#PopupWindow {
+    position: fixed;
+    z-index: 1;
+
+    background-color: black;
+    color:white;
+
+    border-style: solid;
+    border-color: lightgreen;
+}

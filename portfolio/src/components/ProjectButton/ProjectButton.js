@@ -1,29 +1,22 @@
 import "./ProjectButton.css"
+import DescriptionPopup from "./DescriptionPopup/DescriptionPopup"
+import {useState} from "react"
 
 function ProjectButton(props) {
-    if(props.hasRepo) {
-        return (
-            <button id="ProjectButton">
-                <center>
-                    <div id="ProjectName" onClick={() => {
-                        
-                    }}>{props.projectName}</div> <pre/>
-                    <div id="description">{props.description}</div>
-                    <a id="RepoLink"href={props.repoUrl} target="_Blank" rel="noreferrer">Check out the repo!</a>
-                </center>
-            </button>
-        )
-    }
-    else {
-        return (
-            <button id="ProjectButton">
-            <center>
-                <div id="ProjectName" onClick="">{props.projectName}</div> <pre/>
-                <div id="description">{props.description}</div>
-            </center>
-        </button>
-        )
-    }
+    const [buttonPopup, setButtonPopup] = useState(false);
+
+    return (
+        <div id="ProjectButtonDiv">
+            <DescriptionPopup trigger={buttonPopup} setTrigger={setButtonPopup} 
+                                description={props.description} 
+                                hasRepo={props.hasRepo} 
+                                repoUrl={props.repoUrl}/>
+            <button id="ProjectButton" onClick={() => setButtonPopup(true)}>
+                {props.projectName}
+            </button>    
+        </div>
+    )
+    
 }
 
 export default ProjectButton

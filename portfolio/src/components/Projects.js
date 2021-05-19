@@ -10,7 +10,7 @@ function Projects() {
 
             <p>
                 <center>
-                    Programming projects I've used to help myself learn.
+                    Programming projects I've used to help myself learn. <pre/>
                 </center>
             </p>
 
