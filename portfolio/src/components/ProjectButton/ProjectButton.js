@@ -1,4 +1,3 @@
-import react from 'react'
 import "./ProjectButton.css"
 
 function ProjectButton(props) {

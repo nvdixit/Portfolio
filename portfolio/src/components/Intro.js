@@ -1,18 +1,11 @@
-import {
-  Link
-} from "react-router-dom"
-
 import ExternalWebpageButton from  "./ExternalWebpageButton/ExternalWebpageButton"
 import Course from "./Course/Course"
+import Navbar from "./NavigationBar/Navbar"
 
 function Intro() {
   return (          
       <main>
-        <ul id="navbar">
-            <li id="navitem"><Link to={"/Projects"} style={{ textDecoration: 'none', color:"inherit" }}>Projects</Link></li>
-            <li id="navitem"><Link to={"/Hobbies"} style={{ textDecoration: 'none', color:"inherit" }}>Hobbies</Link></li>
-            <li id="navitem"><Link to={"/Contact"} style={{ textDecoration: 'none', color:"inherit"}}>Contact</Link></li>
-        </ul>
+        <Navbar oneLink="/Projects" oneName="Projects" twoLink="/Hobbies" twoName="Hobbies" threeLink="/Contact" threeName="Contact"/>
         
         <h1>
           <center>Nikhil Dixit</center>

@@ -1,0 +1,24 @@
+#navbar {
+    font-family: 'Roboto-Thin', 'Roboto';
+
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+
+    margin: 0;
+    padding: 0;
+    height: 65px;
+
+    background-color: lightgreen;
+}
+
+#navitem {
+    list-style: none;
+    padding: 50px;
+    font-size: 15pt;
+}
+
+#navitem:hover {
+    color: lightgreen;
+    background-color: black;
+}

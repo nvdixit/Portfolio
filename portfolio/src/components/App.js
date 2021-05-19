@@ -7,6 +7,8 @@ import {
 import React from 'react'
 import Intro from './Intro'
 import Projects from "./Projects"
+import Hobbies from "./Hobbies"
+import Contact from "./Contact"
 
 const App = () => {
     return (
@@ -20,6 +22,16 @@ const App = () => {
                 <Route exact path="/Projects">
                     <div>
                         <Projects />
+                    </div>
+                </Route>
+                <Route exact path="/Hobbies">
+                    <div>
+                        <Hobbies />
+                    </div>
+                </Route>
+                <Route exact path="/Contact">
+                    <div>
+                        <Contact />
                     </div>
                 </Route>
             </Switch>
