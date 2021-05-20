@@ -16,8 +16,8 @@ function Projects() {
 
             <p>
                 <center>
-                    <ProjectButton projectName="TechStocks" description="An iOS application that tracks company stock prices" hasRepo={true} repoUrl="https://github.com/nvdixit/TechStocks"/>
-                    <ProjectButton projectName="Portfolio Website" description="My porfolio website" hasRepo={true}repoUrl="https://github.com/nvdixit/Portfolio"/>
+                    <ProjectButton projectName="TechStocks" description="An iOS app that tracks company stock prices" hasRepo={true} repoUrl="https://github.com/nvdixit/TechStocks"/>
+                    <ProjectButton projectName="Portfolio Website" description="My porfolio website (What you're on right now!)" hasRepo={true}repoUrl="https://github.com/nvdixit/Portfolio"/>
                     <ProjectButton projectName="PackScheduler" description="A college course registration & management system" hasRepo={false}/>
                 </center>
             </p>

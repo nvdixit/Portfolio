@@ -11,20 +11,18 @@
 
     height:600px;
     width:600px;
-
-    font-size: 15pt;
 }
 
 #closeButton {
     height:35px;
     width:35px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-right: 10px;
     margin-left: 10px;
     float: right;
 
-    font-size: 15pt;
+    font-size: 20pt;
     text-align: center;
 
     color:orange;
@@ -44,6 +42,17 @@
 }
 
 #repoLink:hover {
-    color:orange;
+    color:skyblue;
 }
 
+#popupHeader {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#projectDescription {
+    font-size: 15pt;
+    text-align: left;
+}

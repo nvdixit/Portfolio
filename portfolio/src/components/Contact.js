@@ -8,6 +8,7 @@ function Contact() {
             <center>
                 <h1>Contact</h1>
             </center>
+            
         </main>
     )
 }
