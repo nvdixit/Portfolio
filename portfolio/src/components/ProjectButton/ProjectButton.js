@@ -10,10 +10,12 @@ function ProjectButton(props) {
             <DescriptionPopup trigger={buttonPopup} setTrigger={setButtonPopup} 
                                 description={props.description} 
                                 hasRepo={props.hasRepo} 
-                                repoUrl={props.repoUrl}/>
+                                repoUrl={props.repoUrl}
+                                technicalSummary={props.technicalSummary}/>
             <button id="ProjectButton" onClick={() => setButtonPopup(true)}>
                 {props.projectName}
-            </button>    
+            </button>
+
         </div>
     )
     

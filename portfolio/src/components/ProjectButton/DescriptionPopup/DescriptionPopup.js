@@ -15,9 +15,7 @@ function DescriptionPopup(props) {
                 <pre/>
 
                 <ul id="projectDescription">
-                    <li>Implemented CoreData to persist companies added by user</li>
-                    <li>Used AlamoFire/SwiftyJSON API's to make and process HTTP requests</li>
-                    <li>Cocoapods dependancy manager</li>
+                    {props.technicalSummary.map((point, i) => <li key={i}>{point}</li>)}
                 </ul>
 
                 <a href={props.repoUrl} target="_Blank" rel="noreferrer" id="repoLink">Check out the repo!</a> 
@@ -34,9 +32,7 @@ function DescriptionPopup(props) {
                 <pre/>
 
                 <ul id="projectDescription">
-                    <li>Implemented CoreData to persist companies added by user</li>
-                    <li>Used AlamoFire/SwiftyJSON API's to make and process HTTP requests</li>
-                    <li>Cocoapods dependancy manager</li>
+                    {props.technicalSummary.map((point, i) => <li key={i}>{point}</li>)}
                 </ul>
             </div>
         ) : ""

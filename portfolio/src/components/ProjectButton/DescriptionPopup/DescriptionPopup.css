@@ -1,6 +1,7 @@
 #PopupWindow {
     position: absolute;
     z-index: 1;
+    overflow: hidden;
 
     background-color: black;
     color:white;
@@ -55,4 +56,6 @@
 #projectDescription {
     font-size: 15pt;
     text-align: left;
+
+    margin-right: 10px;
 }
