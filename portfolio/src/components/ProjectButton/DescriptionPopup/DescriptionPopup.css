@@ -1,10 +1,49 @@
 #PopupWindow {
-    position: fixed;
+    position: absolute;
     z-index: 1;
 
     background-color: black;
     color:white;
 
     border-style: solid;
-    border-color: lightgreen;
+    border-color:skyblue;
+    border-radius: 30px;
+
+    height:600px;
+    width:600px;
+
+    font-size: 15pt;
 }
+
+#closeButton {
+    height:35px;
+    width:35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: right;
+
+    font-size: 15pt;
+    text-align: center;
+
+    color:orange;
+    background-color: black;
+
+    border-style: solid;
+    border-color: black;
+}
+
+#closeButton:hover {
+    cursor: pointer;
+}
+
+#repoLink {
+    text-decoration: none;
+    color: white;
+}
+
+#repoLink:hover {
+    color:orange;
+}
+

@@ -1,7 +1,7 @@
 #ProjectButton {
     color:white;
     background-color: black;
-    border-color:lightgreen;
+    border-color:white;
 
     width:300px;
     height:300px;
@@ -17,6 +17,7 @@
 }
 
 #ProjectButton:hover {
+    border-color: lightgreen;
     color:lightgreen;
     cursor:pointer;
 }
