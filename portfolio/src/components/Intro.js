@@ -6,7 +6,7 @@ function Intro() {
   return (          
       <main>
         <Navbar oneLink="/Projects" oneName="Projects" twoLink="/Hobbies" twoName="Hobbies" threeLink="/Contact" threeName="Contact"/>
-        
+
         <h1>
           <center>Nikhil Dixit</center>
         </h1>

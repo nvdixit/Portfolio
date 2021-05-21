@@ -16,7 +16,8 @@ function Contact() {
                     Email: dixit.v.nikhil@gmail.com
                     
                     <pre/>
-                    Questions? Comments? Feel free to reach out
+                    Questions? Comments? Tips on improving the website? <pre/>
+                    Feel free to reach out
                 </center>
             </p>
 
