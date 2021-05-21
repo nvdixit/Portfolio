@@ -4,7 +4,7 @@ import ContactForm from './ContactForm/ContactForm'
 function Contact() {
     return(
         <main>
-            <Navbar oneLink="/" oneName="Home" twoLink="/Projects" twoName="Projects" threeLink="/Hobbies" threeName="Hobbies"/>
+            <Navbar/>
 
             <center>
                 <h1>Contact</h1>

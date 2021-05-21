@@ -5,7 +5,7 @@ import Navbar from "./NavigationBar/Navbar"
 function Intro() {
   return (          
       <main>
-        <Navbar oneLink="/Projects" oneName="Projects" twoLink="/Hobbies" twoName="Hobbies" threeLink="/Contact" threeName="Contact"/>
+        <Navbar/>
 
         <h1>
           <center>Nikhil Dixit</center>

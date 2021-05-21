@@ -3,11 +3,17 @@ import Navbar from './NavigationBar/Navbar'
 function Hobbies() {
     return(
         <main>
-            <Navbar oneLink="/" oneName="Home" twoLink="/Projects" twoName="Projects" threeLink="/Contact" threeName="Contact"/>
+            <Navbar/>
 
             <center>
                 <h1>Hobbies</h1>
             </center>
+
+            <p>
+                <center>
+                    What I like to do for fun.
+                </center>
+            </p>
         </main>
     )
 }
