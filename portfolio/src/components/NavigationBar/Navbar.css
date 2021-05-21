@@ -21,18 +21,13 @@
 #navitem:hover {
     color: lightgreen;
     background-color: black;
+    cursor: pointer;
 }
 
-#photoIcon {
+#icon {
     list-style: none;
     padding: 50px;
     font-size: 15pt;
     margin-left: auto;
     align-items: center;
-}
-
-#picture {
-    border: solid;
-    border-radius: 50px;
-    border-color: lightgreen;
 }
