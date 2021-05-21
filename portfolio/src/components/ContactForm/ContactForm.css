@@ -1,0 +1,65 @@
+#contactForm {
+    height: 800px;
+    width: 600px;
+
+    border-style: solid;
+    border-color: lightgreen;
+    border-radius: 25px;
+
+}
+
+#messageBox {
+    height: 300px;
+    width: 520px;
+
+    font-family: 'Roboto-Thin', 'Roboto';
+    font-size: 15pt;
+
+}
+
+#nameBox {
+    font-family: 'Roboto-Thin', 'Roboto';
+    font-size: 15pt;
+
+    height: 30px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+#emailBox, #subjectBox {
+    font-family: 'Roboto-Thin', 'Roboto';
+    font-size: 15pt;
+
+    height: 30px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#sendButton {
+    color:lightgreen;
+    background-color: black;
+    border-color: lightgreen;
+    border-style: solid;
+    border-radius: 15pt;
+
+    height: 75px;
+    width:225px;
+    font-size: 25pt;
+}
+
+#sendButton:hover {
+    cursor:pointer;
+}
+
+#infoContainer {
+    text-align: right;
+}
+
+#contactMe {
+    display: inline;
+    text-align: center;
+    font-size: 30pt;
+}
