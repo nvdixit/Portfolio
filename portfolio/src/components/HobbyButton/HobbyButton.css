@@ -1,0 +1,49 @@
+#hobbyButton {
+    display: inline-block;
+    vertical-align: top;
+    overflow: scroll;
+
+    color:white;
+    background-color: black;
+
+    border-style: solid;
+    border-color:skyblue;
+    border-radius: 15pt;
+
+    height:600px;
+    width:400px;
+
+    font-size: 25pt;
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#hobbyText{
+    margin-top: 35px;
+}
+
+#Description {
+    font-size: 15pt;
+    margin-left: 10pt;
+    margin-right:10pt;
+}
+
+#photos {
+    text-align: center;
+}
+
+#carPhotos {
+    display: inline;
+}
+
+#picture {
+    border-style: solid;
+    border-color:white;
+    border-radius: 15pt;
+
+    display: inline;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

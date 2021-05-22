@@ -11,7 +11,7 @@ function Navbar(props) {
             <li id="navitem"><Link to="/Contact" style={{ textDecoration: 'none', color:"inherit"}}>Contact</Link></li>
             <li id="icon">
                 <Link to="/Contact">
-                    <img id="picture" src={icon} alt="Icon" height="45px"/>
+                    <img id="icon" src={icon} alt="Icon" height="45px"/>
                 </Link>
             </li>
         </ul>

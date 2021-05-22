@@ -33,7 +33,7 @@ function Intro() {
         <p>
             <center>
                 <SkillList listTitle="Languages" skills={["Java", "python", "Swift", "HTML/CSS/JavaScript","C++", "C"]}/>
-                <SkillList listTitle="Stacks/Technologies" skills={["Eclipse/VSCode/PyCharm", "Git/GitHub", "ReactJS", "JUnit", "Jupyter", 
+                <SkillList listTitle="Stacks/Technologies" skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "ReactJS", "JUnit, Jenkins", "Jupyter", 
                                                                     "Keras/Tensorflow", "ML/AI/NLP"]}/>
                 <pre/>
                 Coursework <pre />
