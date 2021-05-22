@@ -3,16 +3,16 @@
     margin-right: 25px;
     margin-left: 25px;
     line-height: 50px;
-    width: 600px;
+    width:fit-content;
     height: 50px;
-    overflow: hidden;
+    width: 500px;
 }
 
 #Course:hover {
     color:lightgreen;
-    height: 300px;
 }
 
-#InnerText {
-    line-height: 35px;
+#materialLearned {
+    text-align: left;
+    line-height: 30px;
 }

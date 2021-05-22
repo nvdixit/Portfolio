@@ -25,7 +25,8 @@ function Projects() {
                     <ProjectButton projectName="Portfolio Website" description="My porfolio website" hasRepo={true}
                                     technicalSummary={["You're on it right now!",
                                                         "Implemented React framework to create resusable and functional UI components (like this popup box)",
-                                                        "Gained profeiciency in HTML/CSS/JavaScript"]}
+                                                        "Gained profeiciency in HTML/CSS/JavaScript",
+                                                        "Used react-router library for multiple webpages"]}
                                     repoUrl="https://github.com/nvdixit/Portfolio"/>
                     <ProjectButton projectName="PackScheduler" description="A college course registration & management system" hasRepo={false}
                                     technicalSummary={["Used Java properties class to create login functionality",
