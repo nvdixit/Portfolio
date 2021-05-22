@@ -13,6 +13,8 @@ function DescriptionPopup(props) {
                 {props.children}
                 <h3 id="popupHeader">{props.description}</h3>
                 <pre/>
+                
+                <div id="language">{props.language}</div>
 
                 <ul id="projectDescription">
                     {props.technicalSummary.map((point, i) => <li key={i}>{point}</li>)}
@@ -30,6 +32,8 @@ function DescriptionPopup(props) {
                 {props.children}
                 <h3 id="popupHeader">{props.description}</h3>
                 <pre/>
+
+                <div id="language">{props.language}</div>
 
                 <ul id="projectDescription">
                     {props.technicalSummary.map((point, i) => <li key={i}>{point}</li>)}

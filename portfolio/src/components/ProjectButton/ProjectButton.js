@@ -11,6 +11,7 @@ function ProjectButton(props) {
                                 description={props.description} 
                                 hasRepo={props.hasRepo} 
                                 repoUrl={props.repoUrl}
+                                language={props.language}
                                 technicalSummary={props.technicalSummary}/>
             <button id="ProjectButton" onClick={() => setButtonPopup(true)}>
                 {props.projectName}

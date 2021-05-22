@@ -1,6 +1,7 @@
 import ExternalWebpageButton from  "./ExternalWebpageButton/ExternalWebpageButton"
 import Course from "./Course/Course"
 import Navbar from "./NavigationBar/Navbar"
+import SkillList from "./SkillList/SkillList"
 
 function Intro() {
   return (          
@@ -14,7 +15,7 @@ function Intro() {
         <p>
             <center>
                 I'm an aspiring software developer studying computer science at North Carolina State University. Go Wolfpack!
-                I started programming when I was 13 and have loved it ever since. Now, I'm familiar with Java, Python, Swift, C++, and C. 
+                I started programming when I was 13 and have loved it ever since.
             </center>
         </p>
 
@@ -31,6 +32,10 @@ function Intro() {
 
         <p>
             <center>
+                <SkillList listTitle="Languages" skills={["Java", "python", "Swift", "HTML/CSS/JavaScript","C++", "C"]}/>
+                <SkillList listTitle="Stacks/Technologies" skills={["Eclipse/VSCode/PyCharm", "Git/GitHub", "ReactJS", "JUnit", "Jupyter", 
+                                                                    "Keras/Tensorflow", "ML/AI/NLP"]}/>
+                <pre/>
                 Coursework <pre />
                 <Course courseName="CSC116 - Introduction to Computing - Java" description={["Reviewed basics of Java programming language & OOP", 
                                                                                              "Performed system/unit testing on small applications"]}/>

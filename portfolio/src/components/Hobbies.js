@@ -1,3 +1,4 @@
+import HobbyButton from './HobbyButton/HobbyButton'
 import Navbar from './NavigationBar/Navbar'
 
 function Hobbies() {
@@ -14,6 +15,8 @@ function Hobbies() {
                     What I like to do for fun.
                 </center>
             </p>
+
+            <HobbyButton/>
         </main>
     )
 }
