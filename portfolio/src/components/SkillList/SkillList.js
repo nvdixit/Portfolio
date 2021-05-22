@@ -4,7 +4,7 @@ import "./SkillList.css"
 function SkillList(props) {
     return (
         <div id="skillList">
-            {props.listTitle} 
+            <h3>{props.listTitle}</h3>
             <small><small>
                 <ul id="skills">
                     {props.skills.map((skill, i) => <li key={i}>{skill}</li>)}

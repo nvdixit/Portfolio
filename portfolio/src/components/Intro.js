@@ -20,7 +20,7 @@ function Intro() {
         </p>
 
         <p>
-          <center>My Socials</center>
+          <center><h2>My Socials</h2></center>
           <pre />
 
           <center>
@@ -32,32 +32,33 @@ function Intro() {
 
         <p>
             <center>
+                <pre/>
+                <h2>Coursework</h2> 
+                <pre />
+                <Course courseDesignation="CSC116" courseName="Introduction to Computing - Java" 
+                description={["Reviewed basics of Java programming language & OOP", "Performed system/unit testing on small applications"]}/>
+
+                <Course courseDesignation="CSC216" courseName="Fundamentals of Software Engineering" 
+                description={["Studied basic software engineering", "Built several large scale applications using Java",
+                              "Began learning about linked memory data structues & recursion"]}/>
+
+                <Course  courseDesignation="CSC226"courseName="Discrete Mathematics" 
+                description={["Learned proofs, predicate calculus, and boolean algebra", "Reviewed counting, combinatorics, and graph theory",
+                              "Induction and Big-Oh, Big-Omega, and Big-Theta"]}/>
+
+                <Course courseDesignation="CSC316" courseName="Data Structures & Algorithms" 
+                description={["Reviewed comparison and non-comparison based sorting algorithms","Studied linked and congitious memory data structures",
+                              "Implemented Lists, Stacks, Queues, Positional Lists, Maps, Binary Trees, Balanceable Binary Trees, Heaps, and Graphs",
+                              "Studied HashMaps/Tables and Hashing algorithms + compression techniques",
+                              "Learned to classify algorithm runtimes using Big-Oh notation"]}/>
+
+                <Course courseDesignation="CSC230" courseName="CC and Software Tools" 
+                description={["Learned basics of C and C++ programming languages", "Memory management techniques and security",
+                              "Studied the C Standard Library and most common debugging/code coverage tools used when developing C programs"]}/>
+
                 <SkillList listTitle="Languages" skills={["Java", "python", "Swift", "HTML/CSS/JavaScript","C++", "C"]}/>
                 <SkillList listTitle="Stacks/Technologies" skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "ReactJS", "JUnit, Jenkins", "Jupyter", 
                                                                     "Keras/Tensorflow", "ML/AI/NLP"]}/>
-                <pre/>
-                Coursework <pre />
-                <Course courseName="CSC116 - Introduction to Computing - Java" description={["Reviewed basics of Java programming language & OOP", 
-                                                                                             "Performed system/unit testing on small applications"]}/>
-
-                <Course courseName="CSC216 - Fundamentals of Software Engineering" description={["Studied basic software engineering", 
-                                                                                                  "Built several large scale applications using Java",
-                                                                                                  "Began learning about linked memory data structues & recursion"]}/>
-
-                <Course courseName="CSC226 - Discrete Mathematics" description={["Learned proofs, predicate calculus, and boolean algebra", 
-                                                                                  "Reviewed counting, combinatorics, and graph theory",
-                                                                                  "Induction and Big-Oh, Big-Omega, and Big-Theta"]}/>
-
-                <Course courseName="CSC316 - Data Structures & Algorithms" description={["Reviewed comparison and non-comparison based sorting algorithms",
-                                                                                          "Studied linked and congitious memory data structures",
-                                                                                          "Implemented Lists, Stacks, Queues, Positional Lists, Maps, Binary Trees, Balanceable Binary Trees, Heaps, and Graphs",
-                                                                                          "Studied HashMaps/Tables and Hashing algorithms + compression techniques",
-                                                                                          "Learned to classify algorithm runtimes using Big-Oh notation"]}/>
-
-                <Course courseName="CSC230 - C and Software Tools" description={["Learned basics of C and C++ programming languages",
-                                                                                  "Memory management techniques and security",
-                                                                                  "Studied the C Standard Library and most common debugging/code coverage tools used when developing C programs"]}/>
-
                 <pre />
 
              </center>

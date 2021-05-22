@@ -1,18 +1,35 @@
 #Course {
     display: inline-block;
-    margin-right: 25px;
-    margin-left: 25px;
-    line-height: 50px;
-    width:fit-content;
-    height: 50px;
-    width: 500px;
+    overflow: scroll;
+
+    width:275px;
+    height: 400px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 25px;
+    
+    border-style: solid;
+    border-color: lightgreen;
+    border-radius: 25px;
 }
 
-#Course:hover {
-    color:lightgreen;
+#courseDesignation {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#courseName {
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:10px;
 }
 
 #materialLearned {
     text-align: left;
     line-height: 30px;
+
+    margin-left: 10px;
+    margin-right: 10px;
 }
