@@ -7,7 +7,7 @@ function Contact() {
             <Navbar/>
 
             <center>
-                <h1>Contact</h1>
+                <h1>Contact Me</h1>
             </center>
             
             <p>
