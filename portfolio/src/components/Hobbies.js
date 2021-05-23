@@ -25,7 +25,7 @@ function Hobbies() {
 
             <p>
                 <center>
-                    What I like to do for fun.
+                    What I like to do for fun
                 </center>
             </p>
 
@@ -42,7 +42,7 @@ function Hobbies() {
 
                     <HobbyButton title="Baking" description="Like many people, I took up baking during the pandemic. 
                                                             What started as a fun way to relax and relieve stress quickly became one of my favorite pastimes." 
-                                                                images={[bakingOne, bakingTwo, bakingThree]}/>
+                                                            images={[bakingOne, bakingTwo, bakingThree]}/>
                 </center>
             </p>
             

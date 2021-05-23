@@ -39,11 +39,12 @@ function Intro() {
                 description={["Reviewed basics of Java programming language & OOP", "Performed system/unit testing on small applications"]}/>
 
                 <Course courseDesignation="CSC216" courseName="Fundamentals of Software Engineering" 
-                description={["Studied basic software engineering", "Built several large scale applications using Java",
+                description={["Studied basic software engineering techniques", "Engaged in pair programming, used test driven development, and worked with version control", 
+                              "Built several large scale applications using Java",
                               "Began learning about linked memory data structues & recursion"]}/>
 
                 <Course  courseDesignation="CSC226"courseName="Discrete Mathematics" 
-                description={["Learned proofs, predicate calculus, and boolean algebra", "Reviewed counting, combinatorics, and graph theory",
+                description={["Learned proofs, predicate calculus, and boolean algebra", "Reviewed counting, combinatorics, graph theory, and graph traversals",
                               "Induction and Big-Oh, Big-Omega, and Big-Theta"]}/>
 
                 <Course courseDesignation="CSC316" courseName="Data Structures & Algorithms" 
@@ -52,13 +53,16 @@ function Intro() {
                               "Studied HashMaps/Tables and Hashing algorithms + compression techniques",
                               "Learned to classify algorithm runtimes using Big-Oh notation"]}/>
 
-                <Course courseDesignation="CSC230" courseName="CC and Software Tools" 
+                <Course courseDesignation="CSC230" courseName="C and Software Tools" 
                 description={["Learned basics of C and C++ programming languages", "Memory management techniques and security",
                               "Studied the C Standard Library and most common debugging/code coverage tools used when developing C programs"]}/>
 
-                <SkillList listTitle="Languages" skills={["Java", "python", "Swift", "HTML/CSS/JavaScript","C++", "C"]}/>
-                <SkillList listTitle="Stacks/Technologies" skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "ReactJS", "JUnit, Jenkins", "Jupyter", 
-                                                                    "Keras/Tensorflow", "ML/AI/NLP"]}/>
+                <SkillList orientation="left" listTitle="Languages" 
+                skills={["Java", "python", "Swift", "HTML/CSS/JavaScript","C++", "C"]}/>
+                
+                <SkillList orientation="right" listTitle="Stacks/Technologies" 
+                skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "ReactJS", 
+                "JUnit, Jenkins", "Jupyter", "Keras/Tensorflow", "ML/AI/NLP"]}/>
                 <pre />
 
              </center>

@@ -31,7 +31,8 @@ function Projects() {
                     <ProjectButton projectName="PackScheduler" description="A college course registration & management system" hasRepo={false} language="Java"
                                     technicalSummary={["Used Java properties class to create login functionality",
                                                         "Built finite state machine to clean read-in raw data",
-                                                        "Created several custom exceptions to track errors within the system"]}/>
+                                                        "Created several custom exceptions to track errors within the system",
+                                                        "Applied hashing to encrypt user passwords"]}/>
                 </center>
             </p>
         </main>
