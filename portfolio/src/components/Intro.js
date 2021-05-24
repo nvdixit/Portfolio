@@ -15,8 +15,7 @@ function Intro() {
         
         <p>
             <center>
-                I'm an aspiring software developer studying computer science at North Carolina State University. Go Wolfpack!
-                I started programming when I was 13 and have loved it ever since.
+                I'm a software engineer studying computer science at North Carolina State University.
             </center>
         </p>
 
@@ -57,6 +56,8 @@ function Intro() {
                 <Course courseDesignation="CSC230" courseName="C and Software Tools" 
                 description={["Learned basics of C and C++ programming languages", "Memory management techniques and security",
                               "Studied the C Standard Library and most common debugging/code coverage tools used when developing C programs"]}/>
+
+                <pre/>
 
                 <SkillList orientation="left" listTitle="Languages" 
                 skills={["Java", "python", "Swift", "HTML/CSS/JavaScript","C++", "C"]}/>

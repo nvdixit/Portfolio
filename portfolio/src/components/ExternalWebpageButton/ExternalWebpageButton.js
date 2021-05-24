@@ -6,7 +6,7 @@ import linkedin from "./LinkedinLogo.png"
 function ExternalWebpageButton(props) {
     if(props.webpage === "GitHub") {
         return (
-            <a href={props.url} target="_blank" rel="noreferrer">
+            <a href={props.url} target="_blank" rel="noreferrer" id="mainLink">
                 <button id="ExternalWebpageButton">
                     <img src={gitHub} alt="GitHub"/>
                 </button>
@@ -15,7 +15,7 @@ function ExternalWebpageButton(props) {
     }
     else {
         return (
-            <a href={props.url} target="_blank" rel="noreferrer">
+            <a href={props.url} target="_blank" rel="noreferrer" id="mainLink">
                 <button id="ExternalWebpageButton">
                     <img src={linkedin} alt="Linkedin"/>
                 </button>

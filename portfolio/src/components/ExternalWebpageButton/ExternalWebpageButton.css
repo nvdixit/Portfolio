@@ -1,5 +1,4 @@
 #ExternalWebpageButton {
-    text-align: center;
     font-size: 15pt;
     font-family: 'Roboto-Thin', "Roboto";
 
@@ -18,9 +17,13 @@
 
     background-size: cover;
     background-position: center;
-
 }
 
 #ExternalWebpageButton:hover {
     cursor: pointer;
+}
+
+#mainLink {
+    text-align: center;
+    align-items: center;
 }
