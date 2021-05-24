@@ -2,6 +2,7 @@ import ExternalWebpageButton from  "./ExternalWebpageButton/ExternalWebpageButto
 import Course from "./Course/Course"
 import Navbar from "./NavigationBar/Navbar"
 import SkillList from "./SkillList/SkillList"
+import Footer from './Footer/Footer'
 
 function Intro() {
   return (          
@@ -68,6 +69,7 @@ function Intro() {
              </center>
 
         </p>
+        <Footer/>
       </main>
     )
 }

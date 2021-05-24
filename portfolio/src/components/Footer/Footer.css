@@ -1,0 +1,20 @@
+@font-face {
+    font-family:"Roboto";
+    src: url("./Roboto-Thin.ttf") format("truetype");
+}
+
+#Footer {
+    color: black;
+    background-color: lightgreen;
+
+    font-family: 'Roboto-Thin', 'Roboto';
+    font-size: 15pt;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    bottom:0;
+
+    height: 65px;
+}

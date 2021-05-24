@@ -29,3 +29,10 @@ p {
 button {
     font-family: 'Roboto-Thin', "Roboto";
 }
+
+#ProjectsPage {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}

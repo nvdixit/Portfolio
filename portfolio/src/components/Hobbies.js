@@ -13,6 +13,7 @@ import spaceThree from "./HobbyButton/Photos/Space-3.JPG"
 import bakingOne from "./HobbyButton/Photos/Baking-1.JPG"
 import bakingTwo from "./HobbyButton/Photos/Baking-2.JPG"
 import bakingThree from "./HobbyButton/Photos/Baking-3.JPG"
+import Footer from './Footer/Footer'
 
 function Hobbies() {
     return(
@@ -46,6 +47,7 @@ function Hobbies() {
                 </center>
             </p>
             
+            <Footer/>
         </main>
     )
 }

@@ -1,9 +1,10 @@
+import Footer from "./Footer/Footer"
 import Navbar from "./NavigationBar/Navbar"
 import ProjectButton from "./ProjectButton/ProjectButton"
 
 function Projects() {
     return (
-        <main>
+        <main id="ProjectsPage">
             <Navbar oneLink="/" oneName="Home" twoLink="/Hobbies" twoName="Hobbies" threeLink="/Contact" threeName="Contact"/>
 
             <center><h1>Projects</h1></center>
@@ -35,6 +36,8 @@ function Projects() {
                                                         "Applied hashing to encrypt user passwords"]}/>
                 </center>
             </p>
+
+            <Footer/>
         </main>
     )
 }
