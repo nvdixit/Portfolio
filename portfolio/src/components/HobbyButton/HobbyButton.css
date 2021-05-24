@@ -1,7 +1,7 @@
 #hobbyButton {
+    overflow:scroll;
     display: inline-block;
     vertical-align: top;
-    overflow: scroll;
 
     color:white;
     background-color: black;
