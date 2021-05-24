@@ -5,6 +5,8 @@
 
     color: white;
     background-color: black;
+
+    border-style: solid;
     border-color: black;
 
     width: 120px;
@@ -16,6 +18,7 @@
 
     background-size: cover;
     background-position: center;
+
 }
 
 #ExternalWebpageButton:hover {
