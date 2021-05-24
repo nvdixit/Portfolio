@@ -21,7 +21,6 @@ function Intro() {
 
         <p>
           <center><h2>My Socials</h2></center>
-          <pre />
 
           <center>
               <ExternalWebpageButton url={"https://github.com/nvdixit"} webpage={"GitHub"}/>

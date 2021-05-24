@@ -7,16 +7,6 @@
 
     border-style: solid;
     border-color: black;
-
-    width: 120px;
-    height: 120px;
-    border-radius: 60pt;
-    display: inline-block;
-    margin-right: 50px;
-    margin-left: 50x;
-
-    background-size: cover;
-    background-position: center;
 }
 
 #ExternalWebpageButton:hover {
@@ -26,4 +16,14 @@
 #mainLink {
     text-align: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+
+    display: inline-block;
+
+    width: fit-content;
+    height: fit-content;
+    border-radius: 60pt;
+    margin-right: 50px;
+    margin-left: 50x;
 }

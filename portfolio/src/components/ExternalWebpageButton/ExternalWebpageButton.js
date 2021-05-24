@@ -7,18 +7,16 @@ function ExternalWebpageButton(props) {
     if(props.webpage === "GitHub") {
         return (
             <a href={props.url} target="_blank" rel="noreferrer" id="mainLink">
-                <button id="ExternalWebpageButton">
+                    <button id="ExternalWebpageButton"></button>
                     <img src={gitHub} alt="GitHub"/>
-                </button>
-            </a>
+                </a>
         )
     }
     else {
         return (
             <a href={props.url} target="_blank" rel="noreferrer" id="mainLink">
-                <button id="ExternalWebpageButton">
+                    <button id="ExternalWebpageButton"></button>
                     <img src={linkedin} alt="Linkedin"/>
-                </button>
             </a>
         )
     }
