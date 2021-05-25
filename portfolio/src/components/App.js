@@ -4,8 +4,6 @@ import {
     Route,
 } from "react-router-dom"
 
-import {withRouter} from 'react-router-dom'
-
 import React from 'react'
 import Intro from './Intro'
 import Projects from "./Projects"
@@ -14,7 +12,7 @@ import Contact from "./Contact"
 
 const App = () => {
     return (
-        <Router basename={process.env.PUBLIC_URL} history={withRouter}>
+        <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path="/">
                     <div>
