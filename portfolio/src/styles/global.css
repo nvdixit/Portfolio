@@ -9,8 +9,6 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-
-    overflow-x: scroll;
 }
 
 h1 {
@@ -26,8 +24,6 @@ p {
     font-size: 20pt;
     margin-left: 100pt;
     margin-right: 100pt;
-
-    overflow-x: scroll;
 }
 
 button {
@@ -39,4 +35,8 @@ button {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#Intro, #Contact, #Hobbies, #Projects {
+    width: 100%;
 }
