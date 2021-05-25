@@ -8,6 +8,7 @@
     margin: 0px;
     padding: 0px;
     height: 65px;
+    width:100%;
 
     background-color: lightgreen;
 }
@@ -21,7 +22,6 @@
 #navitem:hover {
     color: lightgreen;
     background-color: black;
-    cursor: pointer;
 }
 
 #icon {
