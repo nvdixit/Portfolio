@@ -7,15 +7,16 @@ function Projects() {
         <main id="ProjectsPage">
             <Navbar oneLink="/" oneName="Home" twoLink="/Hobbies" twoName="Hobbies" threeLink="/Contact" threeName="Contact"/>
 
-            <center>
-                <h1>Projects</h1>
-            
+            <center><h1>Projects</h1></center>
 
             <p>
-                Programming projects I've used to help myself learn. 
+                <center>
+                    Programming projects I've used to help myself learn. 
+                </center>
             </p>
 
             <p>
+                <center>
                     <ProjectButton projectName="TechStocks" description="iOS app that tracks company stock prices" hasRepo={true} language="Swift"
                                     repoUrl="https://github.com/nvdixit/TechStocks"
                                     technicalSummary={["Implemented CoreData to persist stocks", 
@@ -33,8 +34,8 @@ function Projects() {
                                                         "Built finite state machine to clean read-in raw data",
                                                         "Created several custom exceptions to track errors within the system",
                                                         "Applied hashing to encrypt user passwords"]}/>
+                </center>
             </p>
-            </center>
 
             <Footer/>
         </main>

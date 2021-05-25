@@ -22,12 +22,16 @@ function Hobbies() {
 
             <center>
                 <h1>Hobbies</h1>
+            </center>
 
             <p>
-                What I like to do for fun
+                <center>
+                    What I like to do for fun
+                </center>
             </p>
 
             <p>
+                <center>
                     <HobbyButton title="Cars" description="I've been a huge car enthusiast since I was 13 years old. 
                                                             The power and engineering of these machines fascinate me, 
                                                             and I love learning more about them at car shows. All photos are pre-covid"
@@ -40,8 +44,8 @@ function Hobbies() {
                     <HobbyButton title="Baking" description="Like many people, I took up baking during the pandemic. 
                                                             What started as a fun way to relax and relieve stress quickly became one of my favorite pastimes." 
                                                             images={[bakingOne, bakingTwo, bakingThree]}/>
+                </center>
             </p>
-            </center>
             
             <Footer/>
         </main>
