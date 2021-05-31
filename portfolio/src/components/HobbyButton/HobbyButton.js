@@ -2,9 +2,9 @@ import "./HobbyButton.css"
 
 function HobbyButton(props) {
     return (
-        <button id="hobbyButton">
+        <div id="hobbyButton">
             <div id="hobbyText">
-                {props.title}
+                <h4>{props.title}</h4>
                 <pre/>
                 <div id="Description">
                     {props.description}
@@ -16,7 +16,7 @@ function HobbyButton(props) {
                     {props.images.map((image, i) => <li key={i}><img id="picture" src={image} alt="Car" width="350px"/></li>)}
                 </ul>
             </div>
-        </button>
+        </div>
     )
 }
 

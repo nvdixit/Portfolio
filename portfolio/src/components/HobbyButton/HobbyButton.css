@@ -11,14 +11,14 @@
     border-radius: 15pt;
 
     height:600px;
-    width:400px;
+    width:375px;
 
     font-size: 25pt;
 
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #hobbyText{
@@ -29,6 +29,7 @@
     font-size: 15pt;
     margin-left: 10pt;
     margin-right:10pt;
+    line-height: 25pt;
 }
 
 #photos {
@@ -37,6 +38,7 @@
 
 #carPhotos {
     display: inline;
+    list-style: none;
 }
 
 #picture {
