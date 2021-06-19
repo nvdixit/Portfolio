@@ -1,76 +1,32 @@
-import React, { Component } from 'react'
-import emailjs from 'emailjs-com'
+import React from 'react';
+import emailjs from 'emailjs-com';
 import "./ContactForm.css"
 
-export default class ContactForm extends Component {
-    constructor(props) {
-        super(props);
+export default function ContactForm() {
 
-        this.state = {
-            senderName: '',
-            senderEmail: '',
-            senderSubject: '',
-            senderMessage: ''
-        };
-
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE, process.env.REACT_APP_EMAIL_TEMPLATE, e.target, process.env.REACT_APP_EMAIL_USERID)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+        });
     }
 
-    setName = (event) => {
-        this.setState({ senderName: event.target.value});
-    }
+    return (
+        <form id="contactForm" onSubmit={sendEmail}>
+            <pre/>
+            <div id="contactMe">Contact Me</div> 
 
-    setEmail = (event) => {
-        this.setState({ senderEmail: event.target.value});
-    }
+            <div id="infoContainer">
+                <input id="nameBox" type="text" name="user_name" placeholder="Your name"/> <pre/>
+                <input id="emailBox" type="email" name="user_email" placeholder="Your email"/> <pre/>
+            </div>
 
-    setSubject = (event) => {
-        this.setState({ senderSubject: event.target.value});
-    }
+            <textarea id="messageBox" name="message" placeholder="Type your message here"/> <pre/>
 
-    setMessage = (event) => {
-        this.setState({ senderMessage: event.target.value});
-    }
-
-    sendEmail = () => {
-        // if(this.state.senderName === '' ||
-        //    this.state.senderEmail === '' ||
-        //    this.state.senderSubject === '' ||
-        //    this.state.senderMessage === '') {
-        // }
-
-        const userId = process.env.REACT_APP_EMAIL_USERID;
-        const service = process.env.REACT_APP_EMAIL_SERVICE;
-        const template = process.env.REACT_APP_EMAIL_TEMPLATE;
-
-        emailjs.init(userId);
-        emailjs.send(service, template, {
-            from_name: this.state.senderName,
-            to_name: "Nikhil Dixit",
-            message: this.state.senderMessage,
-            reply_to: this.state.senderEmail,
-        }).then(
-            console.log("Email Sent")
-        );
-    }
-
-    render() {
-        return (
-            <form id="contactForm">
-                <div id="infoContainer">
-                    <textarea id = "nameBox" placeholder="Your name" onChange={this.setName}></textarea> <pre/>
-
-                    <div>
-                        <div id="contactMe">Contact me</div> 
-                        <textarea id="emailBox" placeholder="Your email" onChange={this.setEmail}></textarea>
-                    </div> 
-                    <pre/>
-
-                    <textarea id="subjectBox" placeholder="Subject" onChange={this.setSubject}></textarea> <pre/>
-                </div>
-            
-                <textarea id="messageBox" placeholder="Type your message here" onChange={this.setMessage}></textarea> <pre/>
-                <button id="sendButton" onClick={this.sendEmail}>Send</button>  
-            </form>
-        )
-    }
+            <input id="sendButton" type="submit" value="Send" />
+        </form>
+  );
 }
