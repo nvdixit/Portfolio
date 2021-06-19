@@ -1,7 +1,7 @@
 import {
+    HashRouter as Router,
     Switch,
-    Route,
-    HashRouter
+    Route
 } from "react-router-dom"
 
 import React from 'react'
@@ -12,7 +12,7 @@ import Contact from "./Contact"
 
 const App = () => {
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path="/">
                     <div>
@@ -35,7 +35,7 @@ const App = () => {
                     </div>
                 </Route>
             </Switch>
-        </HashRouter>
+        </Router>
     )
 }
 

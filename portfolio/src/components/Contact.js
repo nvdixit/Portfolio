@@ -26,8 +26,8 @@ function Contact() {
                 <center>
                     <ContactForm/>
                 </center>
-                
             </p>
+            
             <Footer/>
         </main>
     )

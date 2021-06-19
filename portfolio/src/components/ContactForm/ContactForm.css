@@ -14,7 +14,7 @@
 
     font-family: 'Roboto-Thin', 'Roboto';
     font-size: 15pt;
-
+    resize: none;
 }
 
 #nameBox {
@@ -26,6 +26,8 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 40px;
+
+    resize: none;
 }
 
 #emailBox, #subjectBox {
@@ -36,12 +38,14 @@
 
     margin-left: 40px;
     margin-right: 40px;
+
+    resize: none;
 }
 
 #sendButton {
-    color:lightgreen;
+    color:white;
     background-color: black;
-    border-color: lightgreen;
+    border-color: white;
     border-style: solid;
     border-radius: 15pt;
 
@@ -52,6 +56,8 @@
 
 #sendButton:hover {
     cursor:pointer;
+    color:lightgreen;
+    border-color: lightgreen;
 }
 
 #infoContainer {
