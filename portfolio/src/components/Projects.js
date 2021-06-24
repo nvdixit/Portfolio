@@ -17,12 +17,13 @@ function Projects() {
 
             <p>
                 <center>
-                    <ProjectButton projectName="TechStocks" description="iOS app that tracks company stock prices" hasRepo={true} language="Swift"
-                                    repoUrl="https://github.com/nvdixit/TechStocks"
-                                    technicalSummary={["Implemented CoreData to persist stocks", 
-                                                        "Used Alamofire to make HTTP requests to IEXCloud & tickersearch APIs for stock data",
-                                                        "Used SwiftyJSON to process data obtained from HTTP requests",
-                                                        "Applied CocoaPods dependency manager"]}/>
+                    <ProjectButton projectName="Tracksaction" description="Full stack app that organizes financial information" hasRepo={true} 
+                                    language="HTML/CSS/JS, Java, MySQL" repoUrl="https://github.com/nvdixit/Tracksaction"
+                                    technicalSummary={["Built with MySQL, Spring Boot, and ReactJS",
+                                                       "Created relational database schema to manage credit cards & transactions",
+                                                       "Implemented Maven to integrate MySQL JDBC and Spring Boot dependencies",
+                                                       "Employed axios.js to send get/put requests to Spring/MySQL backend",
+                                                       "Used NumberFormat.js to format transaction amounts"]}/>
 
                     <ProjectButton projectName="Portfolio Website" description="My porfolio website" hasRepo={true} language="HTML/CSS/JavaScript"
                                     technicalSummary={["You're on it right now!",
@@ -31,6 +32,13 @@ function Projects() {
                                                         "Used react-router library for multiple webpages",
                                                         "Implemented EmailJS library for Contact Form functionality"]}
                                     repoUrl="https://github.com/nvdixit/Portfolio"/>
+
+                    <ProjectButton projectName="TechStocks" description="iOS app that tracks company stock prices" hasRepo={true} language="Swift"
+                                    repoUrl="https://github.com/nvdixit/TechStocks"
+                                    technicalSummary={["Implemented CoreData to persist stocks", 
+                                                        "Used Alamofire to make HTTP requests to IEXCloud & tickersearch APIs for stock data",
+                                                        "Used SwiftyJSON to process data obtained from HTTP requests",
+                                                        "Applied CocoaPods dependency manager"]}/>
 
                     <ProjectButton projectName="PackScheduler" description="A college course registration & management system" hasRepo={false} language="Java"
                                     technicalSummary={["Used Java properties class to create login functionality",
