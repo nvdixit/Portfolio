@@ -19,7 +19,6 @@ function ProjectButton(props) {
             </button>
         </div>
     )
-    
 }
 
 export default ProjectButton
