@@ -18,12 +18,12 @@ function Projects() {
             <p>
                 <center>
                     <ProjectButton projectName="Tracksaction" description="Full stack app that organizes financial information" hasRepo={true} 
-                                    language="HTML/CSS/JS, Java, MySQL" repoUrl="https://github.com/nvdixit/Tracksaction"
+                                    language="HTML/CSS/JS, Java, SQL" repoUrl="https://github.com/nvdixit/Tracksaction"
                                     technicalSummary={["Built with MySQL, Spring Boot, and ReactJS",
-                                                       "Created relational database schema to manage credit cards & transactions",
-                                                       "Implemented Maven to integrate MySQL JDBC and Spring Boot dependencies",
-                                                       "Employed axios.js to send get/put requests to Spring/MySQL backend",
-                                                       "Used NumberFormat.js to format transaction amounts"]}/>
+                                                        "Hosted on AWS RDS, Elastic Beanstalk, and Amplify",
+                                                        "Created relational database schema to manage credit cards and corresponding transactions",
+                                                        "Implemented Maven to integrate MySQL JDBC and Spring Boot dependencies",
+                                                        "Employed axios.js to send CRUD requests to Spring Boot/MySQL backend hosted on AWS"]}/>
 
                     <ProjectButton projectName="Portfolio Website" description="My porfolio website" hasRepo={true} language="HTML/CSS/JavaScript"
                                     technicalSummary={["You're on it right now!",

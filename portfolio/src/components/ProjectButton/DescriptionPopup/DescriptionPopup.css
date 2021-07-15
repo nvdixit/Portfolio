@@ -7,7 +7,7 @@
     color:white;
 
     border-style: solid;
-    border-color:skyblue;
+    border-color:white;
     border-radius: 30px;
 
     height:600px;
@@ -40,10 +40,11 @@
 #repoLink {
     text-decoration: none;
     color: white;
+    font-size: 20pt;
 }
 
 #repoLink:hover {
-    color:skyblue;
+    color:lightgreen;
 }
 
 #popupHeader {
@@ -56,11 +57,11 @@
 #projectDescription {
     font-size: 15pt;
     text-align: left;
-
     margin-right: 10px;
 }
 
 #language {
     font-size: 15pt;
     line-height: 10pt;
+    margin-bottom: 15px;
 }

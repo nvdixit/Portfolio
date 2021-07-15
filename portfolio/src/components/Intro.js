@@ -58,14 +58,14 @@ function Intro() {
 
                 <pre/>
 
-                <SkillList orientation="left" listTitle="Languages" 
-                skills={["Java", "Python", "HTML/CSS/JavaScript", "SQL", "Swift", "C++", "C"]}/>
-                
-                <SkillList orientation="right" listTitle="Stacks/Technologies" 
-                skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "ReactJS", "Maven", "Spring/Spring Boot",
+                <SkillList orientation="left" listTitle="Stacks/Technologies" 
+                skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "AWS Amplify/RDS/Route 53/Elastic Beanstalk", "ReactJS", "Maven", "Spring/Spring Boot",
                 "MySQL", "JUnit, Jenkins", "Jupyter", "Keras/Tensorflow/PyTorch", "ML/AI/NLP"]}/>
-                <pre />
 
+                <SkillList orientation="right" listTitle="Languages" 
+                skills={["Java", "Python", "HTML/CSS/JavaScript", "SQL", "Swift", "C++", "C"]}/>
+                <pre />
+                
              </center>
 
         </p>

@@ -16,11 +16,11 @@ function DescriptionPopup(props) {
                 
                 <div id="language">{props.language}</div>
 
+                <a href={props.repoUrl} target="_Blank" rel="noreferrer" id="repoLink">Check out the repo!</a> 
+
                 <ul id="projectDescription">
                     {props.technicalSummary.map((point, i) => <li key={i}>{point}</li>)}
                 </ul>
-
-                <a href={props.repoUrl} target="_Blank" rel="noreferrer" id="repoLink">Check out the repo!</a> 
             </div>
         ) : ""
     }
