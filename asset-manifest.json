@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.40c193e5.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8bb7950b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8bb7950b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.67fba7e4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.d43e5936.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d43e5936.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.87968753.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.87968753.js.map",
     "static/js/2.289704ea.chunk.js": "/Portfolio/static/js/2.289704ea.chunk.js",
     "static/js/2.289704ea.chunk.js.map": "/Portfolio/static/js/2.289704ea.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.40c193e5.chunk.css.map": "/Portfolio/static/css/main.40c193e5.chunk.css.map",
+    "static/css/main.67fba7e4.chunk.css.map": "/Portfolio/static/css/main.67fba7e4.chunk.css.map",
     "static/js/2.289704ea.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.289704ea.chunk.js.LICENSE.txt",
     "static/media/Baking-1.1b36cc68.JPG": "/Portfolio/static/media/Baking-1.1b36cc68.JPG",
     "static/media/Baking-2.d1b156e6.JPG": "/Portfolio/static/media/Baking-2.d1b156e6.JPG",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.87968753.js",
     "static/js/2.289704ea.chunk.js",
-    "static/css/main.40c193e5.chunk.css",
-    "static/js/main.8bb7950b.chunk.js"
+    "static/css/main.67fba7e4.chunk.css",
+    "static/js/main.d43e5936.chunk.js"
   ]
 }
