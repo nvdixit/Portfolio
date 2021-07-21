@@ -60,7 +60,7 @@ function Intro() {
 
                 <SkillList orientation="left" listTitle="Stacks/Technologies" 
                 skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "AWS Amplify/RDS/Route 53/Elastic Beanstalk", "ReactJS", "Maven", "Spring/Spring Boot",
-                "MySQL", "JUnit, Jenkins", "Jupyter", "Keras/Tensorflow/PyTorch", "ML/AI/NLP"]}/>
+                "MySQL", "Flask", "JUnit, Jenkins", "EmailJS", "Jupyter", "Keras/Tensorflow/PyTorch", "ML/AI/NLP"]}/>
 
                 <SkillList orientation="right" listTitle="Languages" 
                 skills={["Java", "Python", "HTML/CSS/JavaScript", "SQL", "Swift", "C++", "C"]}/>

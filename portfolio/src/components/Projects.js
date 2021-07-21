@@ -33,6 +33,12 @@ function Projects() {
                                                         "Implemented EmailJS library for Contact Form functionality"]}
                                     repoUrl="https://github.com/nvdixit/Portfolio"/>
 
+                    <ProjectButton projectName="AllTime" description="A RESTful service about time" hasRepo={true} language="Python"
+                                    technicalSummary={["Implemented Flask to create a REST API that returns the time in every time zone on Earth",
+                                                        "JSON of time zones and corresponding times returned to clients that make GET request to the API",
+                                                        "Hosted on AWS Elastic Beanstalk"]} 
+                                    repoUrl="https://github.com/nvdixit/AllTime.git"/>
+
                     <ProjectButton projectName="TechStocks" description="iOS app that tracks company stock prices" hasRepo={true} language="Swift"
                                     repoUrl="https://github.com/nvdixit/TechStocks"
                                     technicalSummary={["Implemented CoreData to persist stocks", 
