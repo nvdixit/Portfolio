@@ -1,3 +1,8 @@
+@font-face {
+    font-family:"Roboto";
+    src: url("//src/styles/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
 #ProjectButton {
     color:white;
     background-color: black;
@@ -33,4 +38,38 @@
 
 #ProjectButtonDiv {
     display:inline-block;
+}
+
+#projectDescription {
+    color:black;
+    font-size: 15pt;
+    text-align: left;
+    margin-right: 10px;
+}
+
+#descriptionTitle {
+    font-size: 20pt;
+    font-family:'Roboto';
+}
+
+#repoLink {
+    text-decoration: none;
+    font-size: 15pt;
+    font-family: 'Roboto';
+    color:black;
+}
+
+#repoLink:hover {
+    color:green;
+}
+
+#language {
+    font-family: 'Roboto';
+    font-size: 15pt;
+    line-height: 10pt;
+    margin-bottom: 15px;
+}
+
+#customModalDiv {
+    background-color: red;
 }

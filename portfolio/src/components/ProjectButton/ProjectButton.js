@@ -1,24 +1,49 @@
 import "./ProjectButton.css"
-import DescriptionPopup from "./DescriptionPopup/DescriptionPopup"
+import { Modal } from 'react-responsive-modal';
 import {useState} from "react"
+import 'react-responsive-modal/styles.css';
 
 function ProjectButton(props) {
     const [buttonPopup, setButtonPopup] = useState(false);
+    const onCloseModal = () => setButtonPopup(false);
 
-    return (
-        <div id="ProjectButtonDiv">
-            <DescriptionPopup trigger={buttonPopup} setTrigger={setButtonPopup} 
-                                description={props.description} 
-                                hasRepo={props.hasRepo} 
-                                repoUrl={props.repoUrl}
-                                language={props.language}
-                                technicalSummary={props.technicalSummary}/>
+    if(props.hasRepo) {
+        return (
+            <div id="ProjectButtonDiv">
+                <Modal open={buttonPopup} onClose={onCloseModal} center>
+                    <h2 id="descriptionTitle"><center>{props.description}</center></h2>
+                    <h2 id="language"><center>{props.language}</center></h2>
+                    <h3><center><a href={props.repoUrl} target="_Blank" rel="noreferrer" id="repoLink">Check out the repo!</a></center></h3>
 
-            <button id="ProjectButton" onClick={() => setButtonPopup(true)}>
-                {props.projectName}
-            </button>
-        </div>
-    )
+                    <p>
+                        <ul id="projectDescription">
+                            {props.technicalSummary.map((point, i) => <li key={i}>{point}</li>)}
+                        </ul>
+                    </p>
+                </Modal>
+
+                <button id="ProjectButton" onClick={() => setButtonPopup(true)}>{props.projectName}</button>
+            </div>
+        )
+    }
+    else {
+        return (
+            <div id="ProjectButtonDiv">
+                <Modal open={buttonPopup} onClose={onCloseModal} center>
+                    <h2 id="descriptionTitle"><center>{props.description}</center></h2>
+                    <h2 id="language"><center>{props.language}</center></h2>
+
+                    <p>
+                        <ul id="projectDescription">
+                            {props.technicalSummary.map((point, i) => <li key={i}>{point}</li>)}
+                        </ul>
+                    </p>
+                </Modal>
+    
+                <button id="ProjectButton" onClick={() => setButtonPopup(true)}>{props.projectName}</button>
+            </div>
+        )
+    }
 }
 
 export default ProjectButton
