@@ -56,6 +56,16 @@ function Intro() {
                 description={["Learned basics of C and C++ programming languages", "Memory management techniques and security",
                               "Studied the C Standard Library and most common debugging/code coverage tools used when developing C programs"]}/>
 
+                <Course courseDesignation="CSC246" courseName="Operating Systems"
+                description={["Learned role and history of operating systems", "Wrote programs to experiement with processes and threads", 
+                              "Explored different CPU/Disk scheduling algorithms", "Studied synchronization problems and techniques for solving them",
+                              "Learned about mass storage, memory management, and virtualization"]}/>
+                
+                <Course courseDesignation="CSC333" courseName="Automata, Grammars, and Computability"
+                description={["Learned about the theory of computation", "Studied Finite Automata, Context Free Grammars, and Turing Machines",
+                              "Explored Regular and Context Free Languages", "Studied Turing Decidibility and Recognizability", 
+                              "Learned about P vs. NP vs. NP-Completeness and the P = NP question"]}/>
+
                 <pre/>
 
                 <SkillList orientation="left" listTitle="Stacks/Technologies" 
