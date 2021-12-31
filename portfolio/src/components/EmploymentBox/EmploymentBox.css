@@ -1,0 +1,14 @@
+#employmentBox {
+    height: 500px;
+    width: 400px;
+
+    border-style: solid;
+    border-color: lightgreen;
+    border-radius: 25px;
+
+    overflow: scroll;
+}
+
+#jobTasks {
+    text-align: left;
+}

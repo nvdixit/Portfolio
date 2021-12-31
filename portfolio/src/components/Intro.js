@@ -3,6 +3,7 @@ import Course from "./Course/Course"
 import Navbar from "./NavigationBar/Navbar"
 import SkillList from "./SkillList/SkillList"
 import Footer from './Footer/Footer'
+import EmploymentBox from './EmploymentBox/EmploymentBox'
 
 function Intro() {
   return (          
@@ -27,6 +28,19 @@ function Intro() {
               <ExternalWebpageButton url={"https://www.linkedin.com/in/nikhil-dixit-420279159"} webpage={"Linkedin"}/>
           </center>
 
+        </p>
+
+        <p>
+            <center>
+                <h2>Internships</h2>
+            </center>
+            <pre />
+
+            <center>
+                <EmploymentBox companyName={"nCino"} time={"Oct. 2021 - Dec. 2021"}
+                description={["Gained practical knowledge of Agile and Scrum development methodologies", 
+                              "Attended daily stand-ups, sprint retros/reviews, and sprint plannings"]}/>
+            </center>
         </p>
 
         <p>
