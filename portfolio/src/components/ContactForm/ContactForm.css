@@ -29,7 +29,7 @@
     resize: none;
 }
 
-#emailBox, #subjectBox {
+#emailBox {
     font-family: 'Roboto-Thin', 'Roboto';
     font-size: 15pt;
 
