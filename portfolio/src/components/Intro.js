@@ -80,11 +80,28 @@ function Intro() {
                               "Explored Regular and Context Free Languages", "Studied Turing Decidibility and Recognizability", 
                               "Learned about P vs. NP vs. NP-Completeness and the P = NP question"]}/>
 
+                <Course courseDesignation="CSC326" courseName="Software Engineering" 
+                description={["Studied software design process, security, maintainence, UI/UX, and HCI", "Learned about accessibility, testing, and requirements", 
+                              "Implemented new functionality onto course legacy software project, iTrust2", 
+                              "Wrote thorough design documents, system test plans, and user guide"]}/>
+
+                <Course courseDesignation="CSC401" courseName="Data and Computer Communication Networks"
+                description={["Studied the history of the internet and telephone networks", "Learned about the 5 layers of the internet", 
+                              "Studied several networking protocols including HTTP, DNS, DHCP, TCP/UDP, IP, ALOHA, CSMA and more"]}/>
+
+                <Course courseDesignation="CSC411" courseName="Introduction to Artificial Intelligence"
+                description={["Studied foundations and applicaitons of artificial intelligence", 
+                              "Learned about search trees, decision making, planning, reasoning, heuristics, games, and linear programming", 
+                              "Explored ML algorithms using Prolog and Weka"]}/>
+                
+                <Course courseDesignation="CSC379" courseName="Ethics in Computing"
+                description={["Studied major ethical issues and dilemmas surrounding computer science", 
+                              "Wrote case studies and discussed with classmates to analyze ethical behavior for computer scientists"]}/>
                 <pre/>
 
                 <SkillList orientation="left" listTitle="Stacks/Technologies" 
                 skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "AWS Amplify/RDS/Route 53/Elastic Beanstalk", "ReactJS", "Maven", "Spring/Spring Boot",
-                "MySQL", "Flask", "JUnit, Jenkins", "EmailJS", "Jupyter", "Keras/Tensorflow/PyTorch", "ML/AI/NLP"]}/>
+                "MySQL", "Flask", "JUnit, Jenkins", "Prolog", "EmailJS", "Jupyter", "Keras/Tensorflow/PyTorch", "ML/AI/NLP", "AngularJS", "Hibernate"]}/>
 
                 <SkillList orientation="right" listTitle="Languages" 
                 skills={["Java", "Python", "HTML/CSS/JavaScript", "SQL", "Swift", "C++", "C"]}/>

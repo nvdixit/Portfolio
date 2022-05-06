@@ -17,9 +17,16 @@
     list-style: none;
     padding: 50px;
     font-size: 15pt;
+
+    color:black;
 }
 
 #navitem:hover {
+    color:lightgreen
+}
+
+li:hover {
+    -webkit-text-fill-color: lightgreen;
     color: lightgreen;
     background-color: black;
 }
@@ -30,4 +37,12 @@
     font-size: 15pt;
     margin-left: auto;
     align-items: center;
+}
+
+#link:hover {
+    text-decoration-color: lightgreen;
+    text-emphasis-color: lightgreen;
+    -webkit-text-fill-color: lightgreen;
+    color: lightgreen;
+    background-color: black;
 }

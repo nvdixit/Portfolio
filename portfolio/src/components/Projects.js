@@ -5,7 +5,7 @@ import ProjectButton from "./ProjectButton/ProjectButton"
 function Projects() {
     return (
         <main id="ProjectsPage">
-            <Navbar oneLink="/" oneName="Home" twoLink="/Hobbies" twoName="Hobbies" threeLink="/Contact" threeName="Contact"/>
+            <Navbar/>
 
             <center><h1>Projects</h1></center>
 
