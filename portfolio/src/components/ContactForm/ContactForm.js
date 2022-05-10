@@ -12,6 +12,8 @@ export default function ContactForm() {
             }, (error) => {
                 console.log(error.text);
         });
+
+        document.getElementById("contactForm").reset()
     }
 
     return (
@@ -20,7 +22,7 @@ export default function ContactForm() {
             <div id="contactMe">Contact Me</div> {/* Contact Me title*/}
 
             <div id="infoContainer">
-                {/* Where user inputs their name and email address, name field is the variable name for the EmailJS template (DO NOT CHANGE NAME) */}
+                {/* Where user inputs their name and email address, name field is the variable name for the EmailJS template (DO NOT CHANGE NAME ATTRIBUTE) */}
                 <textarea id="nameBox" type="text" name="from_name" placeholder="Your name"/> <pre/> 
                 <textarea id="emailBox" type="email" name="reply_to" placeholder="Your email"/> <pre/>
             </div>

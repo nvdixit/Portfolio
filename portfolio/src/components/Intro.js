@@ -87,7 +87,8 @@ function Intro() {
 
                 <Course courseDesignation="CSC401" courseName="Data and Computer Communication Networks"
                 description={["Studied the history of the internet and telephone networks", "Learned about the 5 layers of the internet", 
-                              "Studied several networking protocols including HTTP, DNS, DHCP, TCP/UDP, IP, ALOHA, CSMA and more"]}/>
+                              "Studied several networking protocols including HTTP, DNS, DHCP, TCP/UDP, IP, ALOHA, CSMA and more", 
+                              "Wrote several application layer protocols for various use cases (RDT broadcast, P2P file sharing)"]}/>
 
                 <Course courseDesignation="CSC411" courseName="Introduction to Artificial Intelligence"
                 description={["Studied foundations and applicaitons of artificial intelligence", 

@@ -1,6 +1,6 @@
 #Course {
     display: inline-block;
-    overflow: scroll;
+    overflow: auto;
 
     width:275px;
     height: 400px;
