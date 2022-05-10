@@ -1,0 +1,11 @@
+#courseBox {
+    height: 500px;
+    width: 100vw;
+
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    left: 0px;
+}
