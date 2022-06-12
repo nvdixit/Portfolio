@@ -38,3 +38,9 @@ button {
 #Intro, #Contact, #Hobbies, #Projects {
     width: 100%;
 }
+
+div::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+    background: transparent;
+}
