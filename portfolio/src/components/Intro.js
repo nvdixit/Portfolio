@@ -37,9 +37,16 @@ function Intro() {
             <pre />
 
             <center>
+                <EmploymentBox companyName={'Fidelity Investments'} time={'Jun. 2022 - Aug. 2022'} 
+                description={['Worked on two different teams to learn how to build enterprise grade software using Agile processes',
+                              'Implemented multiple features on to first team\'s support website using ExpressJS',
+                              'Designed and developed automation architecture and strategies for several financial reports on second team',
+                              'Gained experience eliciting requirements from users and testing software']}/>
+
                 <EmploymentBox companyName={"nCino"} time={"Oct. 2021 - Dec. 2021"}
                 description={["Gained practical knowledge of Agile and Scrum development methodologies", 
-                              "Attended daily stand-ups, sprint retros/reviews, and sprint plannings"]}/>
+                              "Attended daily stand-ups, sprint retros/reviews, and sprint plannings",
+                              "Participated in whiteboarding sessions with senior developers"]}/>
             </center>
         </p>
 
