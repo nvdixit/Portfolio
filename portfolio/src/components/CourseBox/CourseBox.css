@@ -1,5 +1,4 @@
 #courseBox {
-    height: 500px;
     width: 100vw;
 
     display: block;
@@ -9,6 +8,47 @@
 
     left: 0px;
 }
+
+#leftButton {
+    background-color:black;
+    border-color: white;
+    border-style: solid;
+    color:white;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 35pt;
+
+    cursor: pointer;
+}
+
+#leftButton:hover {
+    border-color: lightgreen;
+    border-style: lightgreen;
+    color:lightgreen;
+}
+
+#rightButton {
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    color:white;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 35pt;
+
+    cursor: pointer;
+}
+
+#rightButton:hover {
+    border-color: lightgreen;
+    border-style: lightgreen;
+    color:lightgreen;
+}
+
 
 .ScrollContainer {
     overflow: scroll;

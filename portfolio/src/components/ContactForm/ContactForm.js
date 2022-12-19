@@ -5,15 +5,24 @@ import "./ContactForm.css"
 export default function ContactForm() {
     //EmailJS call to send email through contact form when Send button is pressed
     function sendEmail(e) {
-        e.preventDefault();
-        emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE, process.env.REACT_APP_EMAIL_TEMPLATE, e.target, process.env.REACT_APP_EMAIL_USERID)
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-        });
+        var name = document.getElementById("nameBox").value;
+        var email = document.getElementById("emailBox").value;
+        var message = document.getElementById("messageBox").value;
 
-        document.getElementById("contactForm").reset()
+        if(name.trim().length === 0 || email.trim().length === 0 || message.trim().length === 0) {
+            alert("Please fill out all fields")
+        }
+        else {
+            e.preventDefault();
+            emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE, process.env.REACT_APP_EMAIL_TEMPLATE, e.target, process.env.REACT_APP_EMAIL_USERID)
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+            });
+
+            document.getElementById("contactForm").reset()
+        }
     }
 
     return (

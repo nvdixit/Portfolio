@@ -8,8 +8,13 @@ const CourseBox = (props) => {
     const ref = useRef();
     const { events } = useScrollOnDrag(ref);
 
+    const scroll = (scrollOffset) => {
+        ref.current.scrollLeft += scrollOffset;
+    };
+
     return (
-        <div id="courseBox" {...events} ref={ref}>
+        <div>
+            <div id="courseBox" {...events} ref={ref}>
                 <Course courseDesignation="CSC116" courseName="Introduction to Computing - Java" 
                 description={["Reviewed basics of Java programming language & OOP", "Performed system/unit testing on small applications"]}/>
 
@@ -59,7 +64,32 @@ const CourseBox = (props) => {
                         
                 <Course courseDesignation="CSC379" courseName="Ethics in Computing"
                 description={["Studied major ethical issues and dilemmas surrounding computer science", 
-                                "Wrote case studies and discussed with classmates to analyze ethical behavior for computer scientists"]}/>            
+                                "Wrote case studies and discussed with classmates to analyze ethical behavior for computer scientists"]}/>    
+                
+                <Course courseDesignation="CSC415" courseName="Software Security"
+                description={["Studied the most common vulnerabilites found in software and mitigration strategies", 
+                                "Performed injection attacks, cross site scripting, and cross site request forgery on dummy application",
+                                "Conducted thorough review of an open source software application using OWASP Top 10 and CWE-SANS databases"]}/> 
+
+                <Course courseDesignation="CSC495" courseName="Natural Language Processing"
+                description={["Built multiple Jupyter Notebook projects to explore NLP concepts", 
+                                "Learned about embedding schemes, ML models best for NLP, and most common NLP python frameworks",
+                                "Studied syntax of English, CFGs, dependency parsing, and named entity recognition"]}/>    
+                
+                <Course courseDesignation="CSC236" courseName="Computer Organization and Assembly Language"
+                description={["Learned about the history of computer architecture and origins of x86", "Built several projects in Intel 8086 Assembler",
+                                "Explored ARM architecture through pair programming"]}/>   
+            </div>
+
+            <br></br>
+
+            <div>
+                <center>
+                    <button id="leftButton" onClick={() => scroll(-500)}>&lt;</button>
+                    &nbsp;&nbsp;
+                    <button id="rightButton" onClick={() => scroll(500)}>&gt;</button>
+                </center>
+            </div>
         </div>
     )
 }
