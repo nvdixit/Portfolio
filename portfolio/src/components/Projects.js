@@ -18,20 +18,29 @@ function Projects() {
             <p>
                 <center>
                     <ProjectButton projectName="Tracksaction" description="Full stack app that organizes financial information" hasRepo={true} 
-                                    language="HTML/CSS/JS, Java, SQL" repoUrl="https://github.com/nvdixit/Tracksaction"
+                                    language="HTML/CSS/JS, Spring Boot, SQL" repoUrl="https://github.com/nvdixit/Tracksaction"
                                     technicalSummary={["Built with MySQL, Spring Boot, and ReactJS",
                                                         "Hosted on AWS RDS, Elastic Beanstalk, and Amplify",
                                                         "Created relational database schema to manage credit cards and corresponding transactions",
                                                         "Implemented Maven to integrate MySQL JDBC and Spring Boot dependencies",
                                                         "Employed axios.js to send CRUD requests to Spring Boot/MySQL backend hosted on AWS"]}/>
 
-                    <ProjectButton projectName="Portfolio Website" description="My porfolio website" hasRepo={true} language="HTML/CSS/JavaScript"
+                    <ProjectButton projectName="Portfolio Website" description="My porfolio website" hasRepo={true} language="React, HTML/CSS/JavaScript"
                                     technicalSummary={["You're on it right now!",
                                                         "Implemented React framework to create reusable and functional UI components (like this popup box)",
                                                         "Gained proficiency in HTML/CSS/JavaScript",
                                                         "Used react-router library for multiple webpages",
                                                         "Implemented EmailJS library for Contact Form functionality"]}
                                     repoUrl="https://github.com/nvdixit/Portfolio"/>
+
+                    <ProjectButton projectName="Toxic Comments Classifier" description="NLP model to classify abusive and cyberbullying internet comments" hasRepo={true} language="scikit-learn, Jupyter"
+                                    technicalSummary={["Created training/testing corpora from mulitple Kaggle datasets", 
+                                                        "Used nltk to preprocess data (lemmatization and removing stopwords)",
+                                                        "Employed SentenceTransformers library for embeddings and sklearn Support Vector Machine as the model",
+                                                        "Achieved 90% accuracy on testing data"]}
+                                    repoUrl="https://github.com/nvdixit/toxicity_abuse_classifier"/>
+
+                    <br/>
 
                     <ProjectButton projectName="AllTime" description="A RESTful service about time" hasRepo={true} language="Python"
                                     technicalSummary={["Implemented Flask to create a REST API that returns the time in every time zone on Earth",

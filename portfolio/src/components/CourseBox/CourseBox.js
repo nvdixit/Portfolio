@@ -78,16 +78,16 @@ const CourseBox = (props) => {
                 
                 <Course courseDesignation="CSC236" courseName="Computer Organization and Assembly Language"
                 description={["Learned about the history of computer architecture and origins of x86", "Built several projects in Intel 8086 Assembler",
-                                "Explored ARM architecture through pair programming"]}/>   
+                                "Explored ARM architecture through pair programming"]}/> 
             </div>
 
             <br></br>
 
             <div>
                 <center>
-                    <button id="leftButton" onClick={() => scroll(-500)}>&lt;</button>
+                    <button id="leftButton" onClick={() => scroll(-500)}><center>←</center></button>
                     &nbsp;&nbsp;
-                    <button id="rightButton" onClick={() => scroll(500)}>&gt;</button>
+                    <button id="rightButton" onClick={() => scroll(500)}><center>→</center></button>
                 </center>
             </div>
         </div>

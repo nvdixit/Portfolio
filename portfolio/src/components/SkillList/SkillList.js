@@ -8,7 +8,7 @@ function SkillList(props) {
                 <h3>{props.listTitle}</h3>
                 <small><small>
                     <ul id="rightSkills">
-                        {props.skills.map((skill, i) => <li key={i}>{skill}</li>)}
+                        {props.skills.map((skill, i) => <div key={i}>{skill}</div>)}
                     </ul>
                 </small></small>
             </div>
@@ -20,7 +20,7 @@ function SkillList(props) {
                 <h3>{props.listTitle}</h3>
                 <small><small>
                     <ul id="skills">
-                        {props.skills.map((skill, i) => <li key={i}>{skill}</li>)}
+                        {props.skills.map((skill, i) => <div key={i}>{skill}</div>)}
                     </ul>
                 </small></small>
             </div>

@@ -1,0 +1,66 @@
+@font-face {
+    font-family:"Roboto";
+    src: url("//src/styles/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+#capstoneBox {
+    width: 100%;
+}
+
+#capstoneBoxButton {
+    border-style: solid;
+    border-color: white;
+    border-radius: 20pt;
+
+    color:white;
+    background-color: black;
+    font-size: 20pt;
+
+    width: 525px;
+    height: 275px;
+}
+
+#subtitle {
+    font-size: 15pt;
+}
+
+#briefDescription {
+    font-size: 15pt;
+
+    text-align: left;
+}
+
+#capstoneBoxButton:hover {
+    color: black;
+    background-color: lightgreen;
+    border-color:lightgreen;
+    cursor: pointer;
+}
+
+#capstoneBoxModalContent {
+    font-family: 'Roboto';
+    font-size: 15pt;
+    margin-left: 15pt;
+    margin-right: 15pt;
+}
+
+.customModal {
+    background: white;
+    max-width: 1250px;
+    width: 100%;
+}
+
+#ncsuLogo {
+    height:75px;
+    border-color: white;
+    border-style: solid;
+
+    border-radius: 10px;
+}
+
+#buttonGraphic {
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+}

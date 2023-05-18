@@ -4,6 +4,7 @@ import SkillList from "./SkillList/SkillList"
 import Footer from './Footer/Footer'
 import EmploymentBox from './EmploymentBox/EmploymentBox'
 import CourseBox from "./CourseBox/CourseBox"
+import CapstoneBox from "./CapstoneBox/CapstoneBox"
 
 function Intro() {
   return (          
@@ -13,15 +14,16 @@ function Intro() {
         <h1>
           <center>Nikhil Dixit</center>
         </h1>
-        
+      
         <p>
             <center>
-                I'm a software engineer studying computer science at North Carolina State University.
+                I'm a software engineer getting my master's in computer science at Purdue University. <br/> 
+                I completed my bachelor's in computer science at NC State in 2023.
             </center>
         </p>
 
         <p>
-          <center><h2>My Socials</h2></center>
+          <center><h2>More About Me</h2></center>
 
           <center>
               <ExternalWebpageButton url={"https://github.com/nvdixit"} webpage={"GitHub"}/>
@@ -53,6 +55,18 @@ function Intro() {
         <p>
             <center>
                 <pre/>
+                <h2>Senior Design Capstone</h2> 
+                <pre />
+            </center>
+
+            <center>
+              <CapstoneBox />
+            </center>
+        </p>
+
+        <p>
+            <center>
+                <pre/>
                 <h2>Coursework</h2> 
                 <pre />
             </center>
@@ -62,8 +76,9 @@ function Intro() {
 
               <center>
                 <SkillList orientation="left" listTitle="Stacks/Technologies" 
-                skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "AWS Amplify/RDS/Route 53/Elastic Beanstalk", "ReactJS", "Maven", "Spring/Spring Boot",
-                "MySQL", "Flask", "JUnit, Jenkins", "Prolog", "EmailJS", "Jupyter", "Keras/Tensorflow/PyTorch", "ML/AI/NLP", "AngularJS", "Hibernate"]}/>
+                skills={["Eclipse, VSCode, PyCharm, Xcode", "Git/GitHub", "AWS Amplify, RDS, Route 53", "Elastic Beanstalk, CloudTrail", "EventBridge", "ReactJS", "Maven", 
+                "Spring/Spring Boot", "MySQL", "Flask", "JUnit, Jenkins", "Prolog", "EmailJS", "Jupyter", "Keras/Tensorflow/PyTorch", "ML/AI/NLP", "AngularJS", 
+                "Hibernate", "Mongo"]}/>
 
                 <SkillList orientation="right" listTitle="Languages" 
                 skills={["Java", "Python", "HTML/CSS/JavaScript", "SQL", "Swift", "C++", "C"]}/>
