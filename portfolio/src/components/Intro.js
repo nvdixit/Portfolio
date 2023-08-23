@@ -39,6 +39,11 @@ function Intro() {
             <pre />
 
             <center>
+                <EmploymentBox companyName={'Fidelity Investments'} time={'Jun. 2023 - Aug. 2023'} 
+                description={['Used machine learning to generate rapid analytics on vendor data to decrease cost/time of onboarding new vendors',
+                              'Employed natural language processing techniques to correlate multi-vendor metadata together',
+                              'Created LSTM neural network to predict the impact of natural and geopolitical events on markets/mutual funds']}/>
+
                 <EmploymentBox companyName={'Fidelity Investments'} time={'Jun. 2022 - Aug. 2022'} 
                 description={['Worked on two different teams to learn how to build enterprise grade software using Agile processes',
                               'Implemented multiple features on to first team\'s support website using ExpressJS',
