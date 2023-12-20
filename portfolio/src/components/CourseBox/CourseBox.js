@@ -79,6 +79,21 @@ const CourseBox = (props) => {
                 <Course courseDesignation="CSC236" courseName="Computer Organization and Assembly Language"
                 description={["Learned about the history of computer architecture and origins of x86", "Built several projects in Intel 8086 Assembler",
                                 "Explored ARM architecture through pair programming"]}/> 
+                
+                <Course courseDesignation="CS 580" courseName="Design and Analysis of Algorithms"
+                description={["Studied greedy algorithms, dynamic programming, and ammortization", 
+                                "Reviewed several advanced problems such as union find and linear time k-selection", 
+                                "Studied network flow, all pairs shortest path, and minimum spanning tree problems and algorithms", 
+                                "Studied linear programming, randomized algorithms, and approximation algorithms for NP-Complete problems"]}/> 
+                
+                <Course courseDesignation="CS 555" courseName="Cryptography"
+                description={["Studied techniques and mathematical principles of encryption", "Studied Shamir Secret Sharing, one time pad, and one way functions",
+                                "Learned foundations of RSA encryption", "Studied efficient algorithms for GCD and primality testing"]}/> 
+                
+                <Course courseDesignation="CS 571" courseName="Artificial Intelligence"
+                description={["Studied techniques of classical AI", "Explored searching, constraint satisfaction, and predicate logic", 
+                                "Learned about probabilistic reasoning, reasoning over time, and reinforcement learning", 
+                                "Conducted novel research project about search in multi-adversarial environments"]}/> 
             </div>
 
             <br></br>
