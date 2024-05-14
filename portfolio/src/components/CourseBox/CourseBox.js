@@ -94,6 +94,22 @@ const CourseBox = (props) => {
                 description={["Studied techniques of classical AI", "Explored searching, constraint satisfaction, and predicate logic", 
                                 "Learned about probabilistic reasoning, reasoning over time, and reinforcement learning", 
                                 "Conducted novel research project about search in multi-adversarial environments"]}/> 
+
+                <Course courseDesignation="CS 573" courseName="Data Mining" 
+                description={["Studied inner workings of supervised machine learning algorithms and techniques", 
+                                "Learned about logisitic regression, max-margin classification, neural networks, and perceptron",
+                                "Reviewed convex optimization theory and learning as optimization", 
+                                "Completed large, novel final project mining consumer behavior from multiple datasets"]}/>
+
+                <Course courseDesignation="CS 536" courseName="Data Communication and Computer Networks" 
+                description={["Studied the five layers of the internet", "Learned about popular networking protocols in all five layers", 
+                                "Reviewed flow control, inter/intranetwork routing, and policy"]}/>
+
+                <Course courseDesignation="CS 577" courseName="Natural Language Processing" 
+                description={["Studied inner workings of logisitic regression, max-margin classification, neural networks, and perceptron",
+                                "Reviewed word vector embedings and how to create them",
+                                "Studied several NLP datasets and tools such as Word2Vec, Penn TreeBank, PropBank, and WordNet",
+                                "Completed large, novel final project on unsupervised learning on Amazon product reviews"]}/>
             </div>
 
             <br></br>
