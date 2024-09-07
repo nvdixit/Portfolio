@@ -1,6 +1,6 @@
 #employmentBox {
     height: 470px;
-    width: 400px;
+    width: 380px;
 
     border-style: solid;
     border-color: lightgreen;
@@ -20,4 +20,6 @@
     text-align: left;
 
     font-size: 15pt;
+    
+    margin-right: 10px;
 }

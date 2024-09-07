@@ -39,6 +39,12 @@ function Intro() {
             <pre />
 
             <center>
+                <EmploymentBox companyName={'Fidelity Investments'} time={'Jun. 2024 - Aug. 2024'} 
+                description={['Build tool that allows users to search for metadata across multiple datastores',
+                              'Developed unsupervised machine learning algorithm to recommend individual datapoints to users',
+                              'Modified existing application\'s user experience for seamless unsupervised learning integration',
+                              'Automated data cleaning and verification for rapid ingestion into datastores']}/>
+
                 <EmploymentBox companyName={'Fidelity Investments'} time={'Jun. 2023 - Aug. 2023'} 
                 description={['Used machine learning to generate rapid analytics on vendor data to decrease cost/time of onboarding new vendors',
                               'Employed natural language processing techniques to correlate multi-vendor metadata together',
