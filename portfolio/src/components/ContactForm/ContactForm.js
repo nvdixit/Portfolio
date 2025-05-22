@@ -21,9 +21,9 @@ export default function ContactForm() {
         else {
             emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE, process.env.REACT_APP_EMAIL_TEMPLATE, e.target, process.env.REACT_APP_EMAIL_USERID)
                 .then((result) => {
-                    console.log(result.text);
+                    console.log("Success");
                 }, (error) => {
-                    console.log(error.text);
+                    console.log("Error");
             });
             document.getElementById("contactForm").reset()
         }

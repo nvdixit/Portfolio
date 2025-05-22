@@ -110,6 +110,29 @@ const CourseBox = (props) => {
                                 "Reviewed word vector embedings and how to create them",
                                 "Studied several NLP datasets and tools such as Word2Vec, Penn TreeBank, PropBank, and WordNet",
                                 "Completed large, novel final project on unsupervised learning on Amazon product reviews"]}/>
+
+                <Course courseDesignation="CS 560" courseName="Reasoning About Programs" 
+                description={["Studied several automated program verification techniques", 
+                                "Reviewed state-of-the-art SAT solving for formal verification",
+                                "Conducted Bounded Model Checking on programs written in non-trivial course language", 
+                                "Learned several formal logics useful for automated verification"]}/>
+
+                <Course courseDesignation="CS 593AE" courseName="Algorithmic Economics" 
+                description={["Studied mathematical formalisms of social computing and economics", 
+                                "Reviewed fair division cake cutting, fairness metrics, and associated algorithms",
+                                "Learned to design tamper resistent auction mechanisms",
+                                "Studied Nash Equilibira, cryptocurrency/blockchain, and approximate optimal randomized algorithms"]}/>
+
+                <Course courseDesignation="CS 565" courseName="Programming Languages" 
+                description={["Studied formalisms and techniques to construct programming languages", 
+                                "Learned about operational semantics, lambda calculus, and Hoare Logic",
+                                "Verified correctness properties of simple language using Coq theorem prover"]}/>
+
+                <Course courseDesignation="CS 584" courseName="Computability & Complexity Theory" 
+                description={["Reviewed Turing Machines, decidability, recognizability, and the Halting Problem", 
+                                "Studied several time and space complexity classes and their complete problems",
+                                "Conducted novel research into optimal online minimum spanning tree procedures",
+                                "Discovered new algorithm and lower bound for online MST"]}/>
             </div>
 
             <br></br>

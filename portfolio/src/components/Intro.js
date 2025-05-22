@@ -17,8 +17,8 @@ function Intro() {
       
         <p>
             <center>
-                I'm a software engineer getting my master's in computer science at Purdue University. <br/> 
-                I completed my bachelor's in computer science at NC State in 2023.
+                I'm a software engineer at Fidelity Investments. I got my master's in computer science at Purdue University <br/>
+                and my bachelor's in computer science at NC State in 2023.
             </center>
         </p>
 
