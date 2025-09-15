@@ -32,12 +32,12 @@ function CapstoneBox() {
 
                     <h3>The Process</h3>
                     <center>
-                        <img src={process}></img>
+                        <img src={process} alt="process" width='90%'></img>
                     </center>
 
                     <h3>Application High Level Design</h3>
                     <center>
-                        <img src={highLevelDesign}></img>
+                        <img src={highLevelDesign} alt="highleveldesign" width='90%'></img>
                     </center>
 
                     <small>*Diagrams and project completed with the help of NC State University computer science Spring 2023 Senior Design Center Team 10. Shared here with permission 
@@ -49,7 +49,7 @@ function CapstoneBox() {
                 AWS Environment Change Management
                 <br/>
                 <div id='buttonGraphic'>
-                    &nbsp;<img id='ncsuLogo' src={ncsuLogo}></img>&nbsp;sponsored by Cisco
+                    &nbsp;<img id='ncsuLogo' src={ncsuLogo} alt="ncsulogo"></img>&nbsp;sponsored by Cisco
                 </div>
             </button>  
         </div>

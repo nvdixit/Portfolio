@@ -28,15 +28,16 @@ button {
     font-family: 'Roboto-Thin', "Roboto";
 }
 
-#ProjectsPage {
+#Intro, #Contact, #Hobbies, #ProjectsPage, #Coursework {
+    width: 100%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#Intro, #Contact, #Hobbies, #Projects {
-    width: 100%;
+#ExperienceBox {
+    width: 65%;
 }
 
 div::-webkit-scrollbar {

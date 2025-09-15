@@ -1,0 +1,85 @@
+.Collapsible {
+    color: black;
+    background-color: lightgreen;
+
+    text-align: left;
+    justify-content: center;
+}
+
+.Collapsible__trigger {
+
+    border-radius: 15px;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-style: solid;
+
+    display: block;
+    position: relative;
+
+    padding: 15px;
+    margin-top: 10px;
+    margin-right: 1px;
+
+    background-color: black;
+    color: white;
+
+    &:after {
+        content: '▾';
+        right: 25px;
+        top: 14px;
+        color: white;
+        position: absolute;
+        display: block;
+        transition: transform 300ms;
+    }
+
+    &.is-open {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        color: black;
+        background-color: lightgreen;
+
+        &:after {
+            transform: rotateZ(180deg);
+            color: black;
+        }
+  }
+}
+
+.Collapsible__trigger:hover {
+    cursor: pointer;
+
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        color: black;
+    }
+}
+
+.Collapsible__contentOuter {
+    background-color: black;
+}
+
+.Collapsible__contentInner {
+    color:white;
+    background-color: black;
+
+    border-style: solid;
+    border-color: lightgreen;
+    border-top-color: black;
+
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+    margin-right: 1px;
+
+}
+
+#companyTimeBox {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: -10px
+}

@@ -1,4 +1,4 @@
-#courseBox {
+#ScrollBox {
     width: 100vw;
 
     display: block;
@@ -49,6 +49,10 @@
     color:lightgreen;
 }
 
+.scroller-item {
+    width: 10%;
+    padding: 30px;
+}
 
 .ScrollContainer {
     overflow: scroll;

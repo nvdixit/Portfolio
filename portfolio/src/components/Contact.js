@@ -1,10 +1,9 @@
 import Navbar from './NavigationBar/Navbar'
 import ContactForm from './ContactForm/ContactForm'
-import Footer from './Footer/Footer'
 
 function Contact() {
     return(
-        <main>
+        <main id="Contact">
             <Navbar/>
 
             <center>
@@ -28,7 +27,6 @@ function Contact() {
                 </center>
             </p>
             
-            <Footer/>
         </main>
     )
 }

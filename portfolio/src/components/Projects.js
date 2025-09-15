@@ -1,4 +1,3 @@
-import Footer from "./Footer/Footer"
 import Navbar from "./NavigationBar/Navbar"
 import ProjectButton from "./ProjectButton/ProjectButton"
 
@@ -64,7 +63,6 @@ function Projects() {
                 </center>
             </p>
 
-            <Footer/>
         </main>
     )
 }

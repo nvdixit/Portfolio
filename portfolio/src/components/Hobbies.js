@@ -1,6 +1,5 @@
 import HobbyButton from './HobbyButton/HobbyButton'
 import Navbar from './NavigationBar/Navbar'
-import Footer from './Footer/Footer'
 
 import carOne from "./HobbyButton/Photos/CarPhoto-1.JPG"
 import carTwo from "./HobbyButton/Photos/CarPhoto-2.JPG"
@@ -17,7 +16,7 @@ import bakingThree from "./HobbyButton/Photos/Baking-3.JPG"
 
 function Hobbies() {
     return(
-        <main>
+        <main id="Hobbies">
             <Navbar/>
 
             <center>
@@ -34,7 +33,7 @@ function Hobbies() {
                 <center>
                     <HobbyButton title="Cars" description="I've been a huge car enthusiast since I was a kid. 
                                                             The power and engineering of these machines fascinate me, 
-                                                            and I love learning more about them at car shows. All photos are pre-covid."
+                                                            and I love learning more about them at car shows."
                                                             images={[carOne, carTwo, carThree, carFour]}/>
 
                     <HobbyButton title="Astronomy" description="I. Love. Space. Capturing the cosmos and the physics of the 
@@ -47,7 +46,6 @@ function Hobbies() {
                 </center>
             </p>
             
-            <Footer/>
         </main>
     )
 }

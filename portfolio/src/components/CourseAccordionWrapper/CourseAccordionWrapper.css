@@ -1,0 +1,153 @@
+.TopicCollapsible {
+    color: black;
+    background-color: black;
+
+    justify-content: center;
+}
+
+.TopicCollapsible__trigger {
+    border-radius: 15px;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-style: solid;
+
+    display: block;
+    position: relative;
+    
+    padding: 15px;
+    margin-top: 20px;
+
+    background-color: black;
+    color: white;
+
+    &:after {
+        content: '▾';
+        right: 25px;
+        top: 14px;
+        color: white;
+        position: absolute;
+        display: block;
+        transition: transform 300ms;
+    }
+
+    &.is-open {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        color: black;
+        background-color: lightgreen;
+
+        &:after {
+            transform: rotateZ(180deg);
+            color: black;
+        }
+  }
+}
+
+.TopicCollapsible__trigger:hover {
+    cursor: pointer;
+
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        color: black;
+    }
+}
+
+.TopicCollapsible__contentOuter {
+    background-color: black;
+}
+
+.TopicCollapsible__contentInner {
+    color:white;
+    background-color: darkslategrey;
+
+    border-style: solid;
+    border-color: lightgreen;
+    border-top-color: darkslategrey;
+
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+}
+
+#ClassList {
+    list-style: none;
+}
+
+.CourseCollapsible {
+    color: darkslategrey;
+    background-color: darkslategrey;
+}
+
+.CourseCollapsible__trigger {
+    border-radius: 15px;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-style: solid;
+
+    display: block;
+    position: relative;
+    
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+
+    background-color: black;
+    color: white;
+
+    &:after {
+        content: '▾';
+        right: 25px;
+        top: 9px;
+        color: white;
+        position: absolute;
+        display: block;
+        transition: transform 300ms;
+    }
+
+    &.is-open {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        color: black;
+        background-color: lightgreen;
+
+        &:after {
+            transform: rotateZ(180deg);
+            color: black;
+        }
+  }
+}
+
+.CourseCollapsible__trigger:hover {
+    cursor: pointer;
+
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        color: black;
+    }
+}
+
+.CourseCollapsible__contentOuter {
+    background-color: darkslategrey;
+}
+
+.CourseCollapsible__contentInner {
+    color:white;
+    background-color: black;
+
+    border-style: solid;
+    border-color: lightgreen;
+    border-top-color: black;
+
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
