@@ -34,11 +34,14 @@ button {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
-    color: white;
 }
 
 #ExperienceBox {
     width: 65%;
+}
+
+#centerText {
+    color: white;
 }
 
 div::-webkit-scrollbar {

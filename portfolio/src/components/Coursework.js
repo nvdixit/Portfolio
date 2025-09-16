@@ -16,7 +16,7 @@ function Coursework() {
 
             <center>
                 <h1>Coursework</h1>
-                <p>
+                <p id="centerText">
                     Classes I've taken
                 </p>
             </center>

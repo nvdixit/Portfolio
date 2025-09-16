@@ -13,14 +13,14 @@ function Intro() {
           <center>Nikhil Dixit</center>
         </h1>
 
-        <p>
+        <p id="centerText">
             <center>
                 I'm a Data Engineer at Fidelity Investments. I got my master's in computer science at<br/>Purdue University in 2025
                 and my bachelor's in computer science at NC State in 2023.
             </center>
         </p>
 
-        <p>
+        <p id="centerText">
           <center><h2>More About Me</h2></center>
 
           <center>
@@ -30,7 +30,7 @@ function Intro() {
 
         </p>
 
-        <p>
+        <p id="centerText">
             <center>
                 <h2>Experience</h2>
             </center>
@@ -68,7 +68,7 @@ function Intro() {
 
         </p>
 
-        <p>
+        <p id="centerText">
             <center>
                 <pre/>
                 <h2>Senior Design Capstone</h2> 
@@ -80,7 +80,7 @@ function Intro() {
             </center>
         </p>
 
-        <p>
+        <p id="centerText">
             <center>
                 <h2>What I've Worked With</h2>
                 

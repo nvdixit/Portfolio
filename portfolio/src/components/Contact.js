@@ -10,7 +10,7 @@ function Contact() {
                 <h1>Contact Me</h1>
             </center>
             
-            <p>
+            <p id="centerText">
                 <center>
                     Phone: (919) 946-4121 &nbsp; &nbsp; &nbsp; &nbsp; 
                     Email: dixit.v.nikhil@gmail.com

@@ -23,7 +23,7 @@ function Hobbies() {
                 <h1>Hobbies</h1>
             </center>
 
-            <p>
+            <p id="centerText">
                 <center>
                     What I like to do for fun
                 </center>

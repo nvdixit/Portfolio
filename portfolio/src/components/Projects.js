@@ -8,7 +8,7 @@ function Projects() {
 
             <center><h1>Projects</h1></center>
 
-            <p>
+            <p id="centerText">
                 <center>
                     Programming projects I've used to help myself learn. 
                 </center>
