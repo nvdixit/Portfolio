@@ -1,7 +1,4 @@
 .TopicCollapsible {
-    color: black;
-    background-color: black;
-
     justify-content: center;
 }
 
@@ -17,31 +14,36 @@
     padding: 15px;
     margin-top: 20px;
 
-    background-color: black;
-    color: white;
-
     &:after {
         content: '▾';
         right: 25px;
         top: 14px;
-        color: white;
         position: absolute;
         display: block;
         transition: transform 300ms;
     }
+}
 
-    &.is-open {
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
+.TopicCollapsible__trigger.is-open {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        transform: rotateZ(180deg);
         color: black;
-        background-color: lightgreen;
+    }
+}
 
-        &:after {
-            transform: rotateZ(180deg);
-            color: black;
-        }
-  }
+.TopicCollapsible__trigger.is-closed {
+    color: white;
+    background-color: black;
+
+    &:after {
+        color: white;
+    }
 }
 
 .TopicCollapsible__trigger:hover {
@@ -102,24 +104,33 @@
         content: '▾';
         right: 25px;
         top: 9px;
-        color: white;
         position: absolute;
         display: block;
         transition: transform 300ms;
     }
+}
 
-    &.is-open {
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
+.CourseCollapsible__trigger.is-open {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        transform: rotateZ(180deg);
         color: black;
-        background-color: lightgreen;
+    }
+}
 
-        &:after {
-            transform: rotateZ(180deg);
-            color: black;
-        }
-  }
+.CourseCollapsible__trigger.is-closed {
+    color: white;
+    background-color: black;
+
+    &:after {
+        transform: rotateZ(180deg);
+        color: white;
+    }
 }
 
 .CourseCollapsible__trigger:hover {

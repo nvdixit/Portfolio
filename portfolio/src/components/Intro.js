@@ -30,8 +30,8 @@ function Intro() {
 
         </p>
 
-        <p id="centerText">
-            <center>
+        <p>
+            <center id="centerText">
                 <h2>Experience</h2>
             </center>
             <pre />

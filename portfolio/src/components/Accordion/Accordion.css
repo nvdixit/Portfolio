@@ -1,13 +1,9 @@
 .Collapsible {
-    color: black;
-    background-color: lightgreen;
-
     text-align: left;
     justify-content: center;
 }
 
 .Collapsible__trigger {
-
     border-radius: 15px;
     border-color: lightgreen;
     border-width: 3px;
@@ -20,31 +16,36 @@
     margin-top: 10px;
     margin-right: 1px;
 
-    background-color: black;
-    color: white;
-
     &:after {
         content: '▾';
         right: 25px;
         top: 14px;
-        color: white;
         position: absolute;
         display: block;
         transition: transform 300ms;
     }
+}
 
-    &.is-open {
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
+.Collapsible__trigger.is-closed {
+    color: white;
+    background-color: black;
 
+    &:after {
+        color: white;
+    }
+}
+
+.Collapsible__trigger.is-open {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        transform: rotateZ(180deg);
         color: black;
-        background-color: lightgreen;
-
-        &:after {
-            transform: rotateZ(180deg);
-            color: black;
-        }
-  }
+    }
 }
 
 .Collapsible__trigger:hover {
