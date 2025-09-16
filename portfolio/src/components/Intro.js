@@ -35,7 +35,7 @@ function Intro() {
                 <h2>Experience</h2>
             </center>
             <pre />
-            
+        
             <center>
             <div id="ExperienceBox">
             <Accordion trigger='Data Engineering Intern - Fidelity Investments' company='Fidelity Investments' time='Jun. 2024 - Aug. 2024'

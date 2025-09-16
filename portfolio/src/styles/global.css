@@ -20,7 +20,7 @@ h1 {
 p {
     font-family: 'Roboto-Thin', "Roboto";
     line-height: 30pt;
-    color: white;
+    
     font-size: 20pt;
 }
 
@@ -34,6 +34,7 @@ button {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    color: white;
 }
 
 #ExperienceBox {
