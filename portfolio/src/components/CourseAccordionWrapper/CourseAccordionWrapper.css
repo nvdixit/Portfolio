@@ -14,14 +14,15 @@
     padding: 15px;
     margin-top: 20px;
 
-    &:after {
-        content: '▾';
-        right: 25px;
-        top: 14px;
-        position: absolute;
-        display: block;
-        transition: transform 300ms;
-    }
+}
+
+.TopicCollapsible__trigger::after {
+    content: '⏷';
+    right: 25px;
+    top: 14px;
+    position: absolute;
+    display: block;
+    transition: transform 500ms;
 }
 
 .TopicCollapsible__trigger.is-open {
@@ -30,20 +31,20 @@
 
     color: black;
     background-color: lightgreen;
+}
 
-    &:after {
-        transform: rotateZ(180deg);
-        color: black;
-    }
+.TopicCollapsible__trigger.is-open::after {
+    transform: rotateZ(180deg);
+    color: black;
 }
 
 .TopicCollapsible__trigger.is-closed {
     color: white;
     background-color: black;
+}
 
-    &:after {
-        color: white;
-    }
+.TopicCollapsible__trigger.is-closed::after {
+    color: white;
 }
 
 .TopicCollapsible__trigger:hover {
@@ -51,10 +52,10 @@
 
     color: black;
     background-color: lightgreen;
+}
 
-    &:after {
-        color: black;
-    }
+.TopicCollapsible__trigger:hover::after {
+    color: black;
 }
 
 .TopicCollapsible__contentOuter {
@@ -99,15 +100,15 @@
 
     background-color: black;
     color: white;
+}
 
-    &:after {
-        content: '▾';
-        right: 25px;
-        top: 9px;
-        position: absolute;
-        display: block;
-        transition: transform 300ms;
-    }
+.CourseCollapsible__trigger::after {
+    content: '⏶';
+    right: 25px;
+    top: 9px;
+    position: absolute;
+    display: block;
+    transition: transform 300ms; 
 }
 
 .CourseCollapsible__trigger.is-open {
@@ -116,21 +117,21 @@
 
     color: black;
     background-color: lightgreen;
+}
 
-    &:after {
-        transform: rotateZ(180deg);
-        color: black;
-    }
+.CourseCollapsible__trigger.is-open::after {
+    transform: rotateZ(360deg);
+    color: black;
 }
 
 .CourseCollapsible__trigger.is-closed {
     color: white;
     background-color: black;
+}
 
-    &:after {
-        transform: rotateZ(180deg);
-        color: white;
-    }
+.CourseCollapsible__trigger.is-closed::after {
+    transform: rotateZ(180deg);
+    color: white;
 }
 
 .CourseCollapsible__trigger:hover {
@@ -138,10 +139,10 @@
 
     color: black;
     background-color: lightgreen;
+}
 
-    &:after {
-        color: black;
-    }
+.CourseCollapsible__trigger:hover::after {
+    color: black;
 }
 
 .CourseCollapsible__contentOuter {

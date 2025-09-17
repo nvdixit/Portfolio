@@ -23,6 +23,7 @@ function Coursework() {
 
             <p>
 
+            <div id='coursesContainerBox'>
             <CourseAccordionWrapper trigger="Artificial Intelligence & Machine Learning" 
             description={[new Course('CS577 - Natural Language Processing', 
                           ["Studied inner workings of logisitic regression, max-margin classification, neural networks, and perceptron",
@@ -155,6 +156,7 @@ function Coursework() {
                 new Course("CSC116 - Introduction to Computing - Java", 
                 ["Reviewed basics of Java programming language & OOP", "Performed system/unit testing on small applications"])
             ]} />
+            </div>
 
             </p>
 

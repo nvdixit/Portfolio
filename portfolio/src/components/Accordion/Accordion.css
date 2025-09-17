@@ -17,7 +17,7 @@
     margin-right: 1px;
 
     &:after {
-        content: '▾';
+        content: '⏷';
         right: 25px;
         top: 14px;
         position: absolute;

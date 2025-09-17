@@ -48,3 +48,8 @@ div::-webkit-scrollbar {
     display: none;
     background: transparent;
 }
+
+#coursesContainerBox {
+    width: 80%;
+    padding-left: 10%;
+}
