@@ -1,0 +1,49 @@
+#courseBox {
+    width: 90%;
+
+    margin: 5% auto;
+}
+
+#nameDescrBox {
+    padding-left: 3%;
+
+    color: white;
+    background-color: black;
+
+    border-color: lightgreen;
+    border-style: solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#numberBox {
+    color: black;
+    background-color: lightgreen;
+
+    border-style: solid;
+    border-color: lightgreen;
+    border-width: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+    width: fit-content;
+}
+
+#courseNameBox {
+    width: 100;
+    height: fit-content;
+
+    margin-top: 3%;
+    
+    text-align: center;
+}
+
+#descriptionBox {
+    padding-left: 0%;
+    padding-right: 3%;
+    margin-top: -2.5%;
+}

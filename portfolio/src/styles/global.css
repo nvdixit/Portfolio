@@ -35,8 +35,29 @@ button {
     justify-content: space-between;
 }
 
+#headingBox {
+    width: 80%;
+    display: flex;
+}
+
+#profilePicBox {
+    width: 30%;
+    height: auto;
+}
+
 #ExperienceBox {
-    width: 65%;
+    width: 80%;
+    display: flex;
+}
+
+#experienceLeftColumn {
+    width: 100%;
+    margin-right: 3%;
+}
+
+#experienceRightColumn {
+    width: 100%;
+    margin-left: 3%;
 }
 
 #centerText {
@@ -49,7 +70,121 @@ div::-webkit-scrollbar {
     background: transparent;
 }
 
-#coursesContainerBox {
+#topicsContainer {
     width: 80%;
     padding-left: 10%;
+}
+
+#topicInside {
+    text-align: left;
+    display: flex;
+    column-count: 2;
+}
+
+#left {
+    width: 50%;
+}
+
+#right {
+    width: 50%;
+}
+
+.Collapsible__trigger {
+    border-radius: 15px;
+    border-color: lightgreen;
+    border-width: 3px;
+    border-style: solid;
+
+    display: block;
+    position: relative;
+
+    padding: 15px;
+    margin-top: 10px;
+    margin-right: 1px;
+
+    &:after {
+        content: '▾';
+        right: 25px;
+        top: 14px;
+        position: absolute;
+        display: block;
+        transition: transform 300ms;
+    }
+}
+
+.Collapsible__trigger.is-closed {
+    color: white;
+    background-color: black;
+
+    &:after {
+        color: white;
+    }
+}
+
+.Collapsible__trigger.is-open {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        transform: rotateZ(180deg);
+        color: black;
+    }
+}
+
+.Collapsible__trigger:hover {
+    cursor: pointer;
+
+    color: black;
+    background-color: lightgreen;
+
+    &:after {
+        color: black;
+    }
+}
+
+.Collapsible__contentOuter {
+    background-color: black;
+}
+
+.Collapsible__contentInner {
+    color:white;
+    background-color: darkslategray;
+
+    border-style: solid;
+    border-color: lightgreen;
+    border-top-color: darkslategray;
+
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 10px;
+    margin-right: 1px;
+
+}
+
+#projectContainer {
+    width: 95%;
+
+    display: flex;
+    column-count: 2;
+
+    color: white;
+
+    height: fit-content;
+
+}
+
+#projectLeft {
+    width: 50%;
+    height: fit-content;
+
+}
+
+#projectRight {
+    width: 50%;
+    height: fit-content;
+
 }

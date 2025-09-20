@@ -1,0 +1,121 @@
+@font-face {
+    font-family:"Roboto";
+    src: url("//src/styles/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+#language {
+    font-family: 'Roboto';
+    font-size: 15pt;
+    line-height: 10pt;
+    margin-bottom: 15px;
+}
+
+#projectDiv {
+    color: white;
+    background-color: black;
+
+    width: 95%;
+    margin-bottom: 5%;
+
+    text-align: left;
+}
+
+#projectInternal {
+    border-color: lightgreen;
+    border-style: solid;
+    border-width: 3px;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    text-align: left;
+}
+
+#projectTitleBox {
+    width: fit-content;
+
+    color: black;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    
+    border-width: 3px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    
+}
+
+#projectSubtitle {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#repoLinkBox {
+    width: 100%;
+    text-align: center;
+}
+
+#projectDescriptionListBox {
+    padding-right: 3%;
+    margin-top: -4%;
+    text-align: left;
+}
+
+#projectDescriptionListBoxNoStack {
+    padding-right: 3%;
+    margin-top: -1%;
+}
+
+#repoButton {
+    background-color: black;
+    border-width: 0;
+    margin-bottom: 20%;
+}
+
+#githubImage {
+    padding-left: 45%;
+}
+
+#githubImage:hover {
+    cursor: pointer;
+}
+
+#projectTechnologiesImageBox {
+    width: 100%;
+    height: fit-content;
+
+    text-align: center;
+}
+
+#stackImage {
+    width: 5vw;
+}
+
+#stackImageli {
+    display: inline;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#projectImagesList {
+    padding-right: 4%;
+}
+
+#capstoneInternalImageWrapper {
+    display: flex;
+}
+
+#capstoneImageImg {
+    width: 90%;
+    background-color: white;
+    padding-top: 2%;
+    margin-bottom: 3%;
+
+    border-style: solid;
+    border-radius: 15px;
+}
