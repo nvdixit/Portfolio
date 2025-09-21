@@ -1,6 +1,8 @@
 import Navbar from "./NavigationBar/Navbar"
 import Project from "./Project/Project"
 
+import 'react-responsive-modal/styles.css';
+
 function Projects() {
     const mysqlUrl = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg';
     const springBootUrl = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg';
@@ -39,7 +41,6 @@ function Projects() {
                                                         'Led a team of 5 CS seniors to build an AWS change management application',
                                                         'Used AWS CloudTrail, Simple Queue Service, Simple Notification Service, and EventBridge to track and filter cloud activity in an AWS environment',
                                                         'Built system that notifies appropriate points of contact upon unauthorized cloud change',
-                                                        'Request: A request to modify the cloud envrionment in some way (create a new EC2 instance, delete an S3 bucket, etc.)'
                                     ]}
                                     stackImages={[mongoUrl, springBootUrl, reactUrl, awsUrl]}/>
 

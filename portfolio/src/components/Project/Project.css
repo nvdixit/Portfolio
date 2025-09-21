@@ -118,4 +118,21 @@
 
     border-style: solid;
     border-radius: 15px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+#capstoneImageImg:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#popupButton {
+    background-color: black;
+    border: none;
+}
+
+#modalImg {
+    width: 100%;
+    padding-bottom: 2%;
 }
